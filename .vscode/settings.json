@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "True unity project.sln"
+    "dotnet.defaultSolution": "Programming-Thoery-Repo.sln"
 }
