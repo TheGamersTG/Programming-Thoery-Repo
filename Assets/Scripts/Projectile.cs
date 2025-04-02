@@ -1,0 +1,27 @@
+using UnityEngine;
+
+public class Projectile : MonoBehaviour
+{
+
+    private int xBound = 15;
+    private int speed = 15;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Movement();
+
+        if(transform.position.x > xBound){
+            Destroy(gameObject);
+        }
+    }
+
+    void Movement(){ //i plan to override this for some wacky movement when i implement enemy projectiles!!
+        transform.Translate(Vector2.right * Time.deltaTime * speed);
+    }
+}
