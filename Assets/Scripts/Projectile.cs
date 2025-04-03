@@ -24,4 +24,11 @@ public class Projectile : MonoBehaviour
     void Movement(){ //i plan to override this for some wacky movement when i implement enemy projectiles!!
         transform.Translate(Vector2.right * Time.deltaTime * speed);
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Enemy")){
+            Destroy(gameObject);
+        }
+    }
 }

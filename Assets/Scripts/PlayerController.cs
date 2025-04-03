@@ -8,14 +8,21 @@ public class PlayerController : MonoBehaviour
 
     private bool canShoot = true;
 
-    private float attackTimer;
+    private GameManager gameman;
+
+  private float attackTimer;
     private float horizontalInput;
 
-    public float timeToShoot = 0.2f;
+    private float timeToShoot = 0.2f;
+    private float iFrames = 2;
 
     private float leftBound = -12;
     
     private float verticalBound = 4.5f;
+
+    private int HP = 3;
+
+    private bool canBeHit = true;
 
 
 
@@ -25,12 +32,13 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(gameman.isGameActive){
         verticalInput = Input.GetAxis("Vertical");
         horizontalInput = Input.GetAxis("Horizontal");
 
@@ -44,31 +52,65 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (transform.position.x < leftBound){
-                    transform.position = new Vector2(leftBound, transform.position.y);
-        }
-
-                if (transform.position.y > verticalBound){
-                    transform.position = new Vector2(transform.position.x, verticalBound);
-        }
-
-                if (transform.position.y < -verticalBound){
-                    transform.position = new Vector2(transform.position.x, -verticalBound);
-        }
+        checkBoundary();
 
         transform.Translate(Vector2.right * horizontalInput * Time.deltaTime * speed);
 
-}
-
-    IEnumerator ShootCooldownn(){
-        yield return new WaitForSeconds(timeToShoot);
-        canShoot = true;
         }
-
+    }
 
     void Shoot(){
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
             canShoot = false;
             StartCoroutine(ShootCooldownn());
     }
+
+    void changeHP(int hpAmount){
+        if (HP > 1){
+            HP = HP + hpAmount;
+            canBeHit = false;
+            StartCoroutine(IFrames());
+        }
+        else {
+            gameman.GameOver();
+            Destroy(gameObject);
+        }
+    }
+
+        void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("EnemyProjectile") || collision.CompareTag("Enemy")){
+            if (canBeHit == true){
+            changeHP(-1);
+            }
+        }
+    }
+
+    void checkBoundary(){
+        if (transform.position.x < leftBound){
+                    transform.position = new Vector2(leftBound, transform.position.y);
+        }
+
+        if (transform.position.x > -leftBound){
+                    transform.position = new Vector2(-leftBound, transform.position.y);
+        }
+
+        if (transform.position.y > verticalBound){
+                    transform.position = new Vector2(transform.position.x, verticalBound);
+        }
+
+        if (transform.position.y < -verticalBound){
+                    transform.position = new Vector2(transform.position.x, -verticalBound);
+        }
+    }
+
+        IEnumerator IFrames(){
+        yield return new WaitForSeconds(iFrames);
+        canBeHit = true;
+        }
+
+        IEnumerator ShootCooldownn(){
+        yield return new WaitForSeconds(timeToShoot);
+        canShoot = true;
+        }
 }
