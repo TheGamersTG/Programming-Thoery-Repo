@@ -4,6 +4,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Dynamic;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class GameManager : MonoBehaviour
 
     public int highScore = 0;
 
+    public int index;
+
     public float Timer = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -32,7 +35,7 @@ public class GameManager : MonoBehaviour
     {
         while(isGameActive){
             yield return new WaitForSeconds(spawnRate);
-            int index = Random.Range(0, Enemies.Count);
+            index = getIndex();
             Instantiate(Enemies[index]);
         }
     }
@@ -43,7 +46,9 @@ public class GameManager : MonoBehaviour
      Timer += Time.deltaTime;  
 
      if (Timer > 10.0f){
-        spawnRate = spawnRate + 0.5f;
+        if (spawnRate > 1){
+        spawnRate = spawnRate - 0.25f;
+        }
         Timer = 0;
      }
 
@@ -64,5 +69,23 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    int getIndex(){
+        int currIndex;
+
+        int randomNum = Random.Range(0, 100);
+
+        if (randomNum <= 30){
+            currIndex = 1;
+        }
+        else if (randomNum <= 80){
+            currIndex = 0;
+        }
+        else{
+            currIndex = 2;
+        }
+
+        return currIndex;
     }
 }

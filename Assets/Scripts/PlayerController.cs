@@ -77,9 +77,10 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-        void OnTriggerStay2D(Collider2D collision)
+        void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("EnemyProjectile") || collision.CompareTag("Enemy")){
+            Debug.Log("proj hit!");
             if (canBeHit == true){
             changeHP(-1);
             }
