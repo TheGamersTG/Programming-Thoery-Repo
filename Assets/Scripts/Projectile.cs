@@ -3,8 +3,8 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
 
-    private int xBound = 15;
-    private int speed = 15;
+    protected int xBound = 15;
+    protected int speed = 15;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,11 +21,11 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    void Movement(){ //i plan to override this for some wacky movement when i implement enemy projectiles!!
+    public virtual void Movement(){ //i plan to override this for some wacky movement when i implement enemy projectiles!!
         transform.Translate(Vector2.right * Time.deltaTime * speed);
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    public virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Enemy")){
             Destroy(gameObject);

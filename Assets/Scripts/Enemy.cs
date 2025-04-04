@@ -1,38 +1,37 @@
-using Unity.Collections;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Enemy : MonoBehaviour
 {
 
 
 private float ySpawnPos = 4.5f;
-    public int HP = 5;
+    protected int HP = 5;
 
-    public int speed = 5;
+    public int scorePoints;
 
-    private int xLimit;
+    protected int speed = 5;
+
+    protected int xLimit;
+
+    public GameManager gameman;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        generateMaxX();
-        transform.position = RandomSpawnPos();
+        gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > xLimit){
         Movement();
-        }
     }
 
-    void Movement(){
+    public virtual void Movement(){
             transform.Translate(Vector2.left * Time.deltaTime * speed);
-    }
-
-    void generateMaxX(){
-        xLimit = Random.Range(8, 12);
     }
 
     public void takeDamage(){
@@ -40,16 +39,17 @@ private float ySpawnPos = 4.5f;
             HP = HP - 1;
         }
         else {
+            gameman.score += scorePoints;
             Destroy(gameObject);
         }
 
     }
 
-        Vector3 RandomSpawnPos(){
+    public Vector2 RandomSpawnPos(){
         return new Vector2(15,  Random.Range(-ySpawnPos, ySpawnPos));
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Projectile")){
             takeDamage();

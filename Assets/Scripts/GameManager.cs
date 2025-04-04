@@ -11,7 +11,13 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> Enemies;
 
+    public TextMeshProUGUI Score;
+
     public float spawnRate = 5.0f;
+
+    public int score = 0;
+
+    public int highScore = 0;
 
     public float Timer = 0;
 
@@ -46,6 +52,8 @@ public class GameManager : MonoBehaviour
                 RestartGame();
             }
         }
+
+    Score.text = "Score: " + score;
 
     }
 
