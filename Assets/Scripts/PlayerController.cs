@@ -48,10 +48,12 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKey(KeyCode.Space)){
             if(canShoot){
+                // ABSTRACTION
                 Shoot();
             }
         }
 
+        // ABSTRACTION
         checkBoundary();
 
         transform.Translate(Vector2.right * horizontalInput * Time.deltaTime * speed);
@@ -64,7 +66,7 @@ public class PlayerController : MonoBehaviour
             canShoot = false;
             StartCoroutine(ShootCooldownn());
     }
-
+// ABSTRACTION
     void changeHP(int hpAmount){
         if (HP > 1){
             HP = HP + hpAmount;

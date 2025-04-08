@@ -3,6 +3,7 @@ using UnityEngine;
 public class DancingEnemy : Enemy
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    //INHERITANCE
 
     private float topBound = 4.5f;
     private int direction = 1;
@@ -15,6 +16,7 @@ public class DancingEnemy : Enemy
         transform.position = RandomSpawnPos();
         scorePoints = 6;
     }
+    //POLYMORPHISM
 
     // Update is called once per frame
     public override void Movement(){

@@ -14,6 +14,15 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI Score;
 
+    public TextMeshProUGUI HScore;
+
+    public GameObject gameOverScreen;
+    public TextMeshProUGUI gameOverScore;
+
+    public TextMeshProUGUI gameOverHS;
+
+
+
     public float spawnRate = 5.0f;
 
     public int score = 0;
@@ -58,12 +67,22 @@ public class GameManager : MonoBehaviour
             }
         }
 
+        if (score > MainManager.instance.HScore){
+            MainManager.instance.HScore = score;
+        }
+
     Score.text = "Score: " + score;
+    HScore.text = "High Score: " +  MainManager.instance.HScore;
+
 
     }
 
     public void GameOver(){
+        MainManager.instance.SaveScore();
         isGameActive = false;
+        gameOverScreen.SetActive(true);
+        gameOverScore.text = "Score: " + score;
+        gameOverHS.text = "High Score: " + MainManager.instance.HScore;
 
     }
 

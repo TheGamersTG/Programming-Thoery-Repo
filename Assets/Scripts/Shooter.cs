@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Shooter : Enemy
 {
+    //INHERITANCE
 
     private float timeToShoot = 3;
     bool canShoot = true;

@@ -6,6 +6,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class Enemy : MonoBehaviour
 {
 
+//INHERITANCE
 
 private float ySpawnPos = 4.5f;
     protected int HP = 5;
@@ -26,14 +27,16 @@ private float ySpawnPos = 4.5f;
 
     // Update is called once per frame
     void Update()
+    
     {
+        // ABSTRACTION
         Movement();
     }
 
     public virtual void Movement(){
             transform.Translate(Vector2.left * Time.deltaTime * speed);
     }
-
+// ABSTRACTION
     public void takeDamage(){
         if (HP > 0){
             HP = HP - 1;
