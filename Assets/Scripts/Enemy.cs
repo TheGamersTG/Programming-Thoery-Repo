@@ -11,8 +11,12 @@ public class Enemy : MonoBehaviour
 private float ySpawnPos = 4.5f;
     protected int HP = 5;
 
+
     public int scorePoints;
 
+    public AudioSource EnemyAudio;
+    public AudioClip ouch;
+    public AudioClip death;
     protected int speed = 5;
 
     protected int xLimit;
@@ -23,6 +27,7 @@ private float ySpawnPos = 4.5f;
     void Start()
     {
         gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
+
     }
 
     // Update is called once per frame
@@ -34,14 +39,15 @@ private float ySpawnPos = 4.5f;
     }
 
     public virtual void Movement(){
-            transform.Translate(Vector2.left * Time.deltaTime * speed);
     }
 // ABSTRACTION
     public void takeDamage(){
         if (HP > 0){
             HP = HP - 1;
+            EnemyAudio.PlayOneShot(ouch);
         }
         else {
+            EnemyAudio.PlayOneShot(death);
             gameman.score += scorePoints;
             Destroy(gameObject);
         }

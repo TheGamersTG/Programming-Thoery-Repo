@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Timeline.Actions;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -19,6 +20,13 @@ public class PlayerController : MonoBehaviour
     private float leftBound = -12;
     
     private float verticalBound = 4.5f;
+
+    public AudioSource PlayerAudio;
+
+    public AudioClip shoot;
+    public AudioClip owie;
+    public AudioClip death;
+
 
     private int HP = 3;
 
@@ -62,6 +70,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Shoot(){
+            PlayerAudio.PlayOneShot(shoot);
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
             canShoot = false;
             StartCoroutine(ShootCooldownn());
@@ -69,22 +78,28 @@ public class PlayerController : MonoBehaviour
 // ABSTRACTION
     void changeHP(int hpAmount){
         if (HP > 1){
+            PlayerAudio.PlayOneShot(owie);
             HP = HP + hpAmount;
             canBeHit = false;
             StartCoroutine(IFrames());
         }
         else {
-            gameman.GameOver();
-            Destroy(gameObject);
+            gameman.mainAudio.Stop();
+            gameman.isGameActive = false;
+            StartCoroutine(Death());
+            //this would be where id put an exploding animation!
+
         }
     }
 
-        void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("EnemyProjectile") || collision.CompareTag("Enemy")){
             Debug.Log("proj hit!");
-            if (canBeHit == true){
-            changeHP(-1);
+            if(gameman.isGameActive){
+                if (canBeHit == true){
+                changeHP(-1);
+                }
             }
         }
     }
@@ -116,4 +131,12 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(timeToShoot);
         canShoot = true;
         }
+
+        IEnumerator Death(){
+            PlayerAudio.PlayOneShot(death);
+            yield return new WaitForSeconds(death.length);
+            Destroy(gameObject);
+            gameman.GameOver();
+        }
+
 }

@@ -8,11 +8,13 @@ using UnityEngine.SceneManagement;
 
 public class MenuUI : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip Select;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        DontDestroyOnLoad( audioSource );
     }
 
     // Update is called once per frame
@@ -22,7 +24,8 @@ public class MenuUI : MonoBehaviour
     }
 
     public void startGame(){
-        SceneManager.LoadScene(1);
+        audioSource.Stop();
+        StartCoroutine(DelayedLoad());
     }
 
     public void exitGame(){
@@ -31,5 +34,11 @@ public class MenuUI : MonoBehaviour
         #else
         Application.Quit();
         #endif
+    }
+
+    IEnumerator DelayedLoad(){
+        audioSource.PlayOneShot(Select);
+        yield return new WaitForSeconds(Select.length);
+        SceneManager.LoadScene(1);
     }
 }

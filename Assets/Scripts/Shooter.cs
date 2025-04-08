@@ -8,6 +8,8 @@ public class Shooter : Enemy
     private float timeToShoot = 3;
     bool canShoot = true;
 
+    public AudioClip shoot2;
+
     public GameObject eProjectilePrefab;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,6 +34,10 @@ public class Shooter : Enemy
 
     }
 
+    public override void Movement(){
+            transform.Translate(Vector2.left * Time.deltaTime * speed);
+    }
+
     IEnumerator ShootCooldown(){
         yield return new WaitForSeconds(timeToShoot);
         canShoot = true;
@@ -43,6 +49,7 @@ public class Shooter : Enemy
 
     private void Shoot(){
         if (Random.Range(0, 10) < 2){
+            EnemyAudio.PlayOneShot(shoot2);
             Instantiate(eProjectilePrefab, transform.position, eProjectilePrefab.transform.rotation);
             canShoot = false;
             StartCoroutine(ShootCooldown());

@@ -21,6 +21,9 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI gameOverHS;
 
+    public AudioSource mainAudio;
+
+    public AudioClip gameOverSong;
 
 
     public float spawnRate = 5.0f;
@@ -78,6 +81,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void GameOver(){
+        mainAudio.Stop();
+        mainAudio.PlayOneShot(gameOverSong);
         MainManager.instance.SaveScore();
         isGameActive = false;
         gameOverScreen.SetActive(true);
@@ -107,4 +112,6 @@ public class GameManager : MonoBehaviour
 
         return currIndex;
     }
+
+
 }
