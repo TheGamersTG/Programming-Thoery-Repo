@@ -18,7 +18,7 @@ public class FastEnemy : Enemy
     // Update is called once per frame
     //POLYMORPHISM
     public override void Movement(){
-        transform.Translate(Vector2.left * Time.deltaTime * speed);
+        transform.Translate(Vector2.up * Time.deltaTime * speed);
 
         if(transform.position.x < xLimit){
             Destroy(gameObject);

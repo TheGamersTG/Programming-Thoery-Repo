@@ -1,0 +1,3092 @@
+fileFormatVersion: 2
+guid: 0504ff963b593194f9ae8db466103f00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3833155515915898895
+    second: footagecrate-lasersword-damaged-red-prev-full_0
+  - first:
+      213: 2894136641798313268
+    second: footagecrate-lasersword-damaged-red-prev-full_1
+  - first:
+      213: 7540668274315525815
+    second: footagecrate-lasersword-damaged-red-prev-full_2
+  - first:
+      213: 2039492115092142696
+    second: footagecrate-lasersword-damaged-red-prev-full_3
+  - first:
+      213: 1844759449419225760
+    second: footagecrate-lasersword-damaged-red-prev-full_4
+  - first:
+      213: -7031220164655760601
+    second: footagecrate-lasersword-damaged-red-prev-full_5
+  - first:
+      213: -3756350308523834920
+    second: footagecrate-lasersword-damaged-red-prev-full_6
+  - first:
+      213: 8307318997071469508
+    second: footagecrate-lasersword-damaged-red-prev-full_7
+  - first:
+      213: -1622637306399057085
+    second: footagecrate-lasersword-damaged-red-prev-full_8
+  - first:
+      213: 6333537202259633864
+    second: footagecrate-lasersword-damaged-red-prev-full_9
+  - first:
+      213: -3420529168541743643
+    second: footagecrate-lasersword-damaged-red-prev-full_10
+  - first:
+      213: 809563884896723743
+    second: footagecrate-lasersword-damaged-red-prev-full_11
+  - first:
+      213: -6938581096748098339
+    second: footagecrate-lasersword-damaged-red-prev-full_12
+  - first:
+      213: 2170386157550448043
+    second: footagecrate-lasersword-damaged-red-prev-full_13
+  - first:
+      213: -1912829395075344034
+    second: footagecrate-lasersword-damaged-red-prev-full_14
+  - first:
+      213: -4143595214335639601
+    second: footagecrate-lasersword-damaged-red-prev-full_15
+  - first:
+      213: 6699965586573892075
+    second: footagecrate-lasersword-damaged-red-prev-full_16
+  - first:
+      213: 194019419223160034
+    second: footagecrate-lasersword-damaged-red-prev-full_17
+  - first:
+      213: 166033634373335889
+    second: footagecrate-lasersword-damaged-red-prev-full_18
+  - first:
+      213: 1623503979084561447
+    second: footagecrate-lasersword-damaged-red-prev-full_19
+  - first:
+      213: 4015232524496336184
+    second: footagecrate-lasersword-damaged-red-prev-full_20
+  - first:
+      213: -3281059898582081743
+    second: footagecrate-lasersword-damaged-red-prev-full_21
+  - first:
+      213: -5113841696872089577
+    second: footagecrate-lasersword-damaged-red-prev-full_22
+  - first:
+      213: -5067281609999470265
+    second: footagecrate-lasersword-damaged-red-prev-full_23
+  - first:
+      213: 7742483392320762015
+    second: footagecrate-lasersword-damaged-red-prev-full_24
+  - first:
+      213: 7837939563352737319
+    second: footagecrate-lasersword-damaged-red-prev-full_25
+  - first:
+      213: 4021633073152348327
+    second: footagecrate-lasersword-damaged-red-prev-full_26
+  - first:
+      213: -6661107303958386322
+    second: footagecrate-lasersword-damaged-red-prev-full_27
+  - first:
+      213: 6447303829568293204
+    second: footagecrate-lasersword-damaged-red-prev-full_28
+  - first:
+      213: -5108487218767077204
+    second: footagecrate-lasersword-damaged-red-prev-full_29
+  - first:
+      213: -8202650123612325632
+    second: footagecrate-lasersword-damaged-red-prev-full_30
+  - first:
+      213: -5663612447871372200
+    second: footagecrate-lasersword-damaged-red-prev-full_31
+  - first:
+      213: 6390161291791631503
+    second: footagecrate-lasersword-damaged-red-prev-full_32
+  - first:
+      213: -3821209045749500378
+    second: footagecrate-lasersword-damaged-red-prev-full_33
+  - first:
+      213: 676687506705574366
+    second: footagecrate-lasersword-damaged-red-prev-full_34
+  - first:
+      213: -4497355423709278233
+    second: footagecrate-lasersword-damaged-red-prev-full_35
+  - first:
+      213: -5756835704449526357
+    second: footagecrate-lasersword-damaged-red-prev-full_36
+  - first:
+      213: 8318423513609617729
+    second: footagecrate-lasersword-damaged-red-prev-full_37
+  - first:
+      213: -845914355418383622
+    second: footagecrate-lasersword-damaged-red-prev-full_38
+  - first:
+      213: 6568056099168953780
+    second: footagecrate-lasersword-damaged-red-prev-full_39
+  - first:
+      213: -4382801567784540345
+    second: footagecrate-lasersword-damaged-red-prev-full_40
+  - first:
+      213: -7358466354529958841
+    second: footagecrate-lasersword-damaged-red-prev-full_41
+  - first:
+      213: -3095129706483325729
+    second: footagecrate-lasersword-damaged-red-prev-full_42
+  - first:
+      213: -1047239371423481140
+    second: footagecrate-lasersword-damaged-red-prev-full_43
+  - first:
+      213: 6318966181202649126
+    second: footagecrate-lasersword-damaged-red-prev-full_44
+  - first:
+      213: 1768978181924515467
+    second: footagecrate-lasersword-damaged-red-prev-full_45
+  - first:
+      213: 1422231879906082108
+    second: footagecrate-lasersword-damaged-red-prev-full_46
+  - first:
+      213: 2049160001955854210
+    second: footagecrate-lasersword-damaged-red-prev-full_47
+  - first:
+      213: -5188431680501686592
+    second: footagecrate-lasersword-damaged-red-prev-full_48
+  - first:
+      213: -366411710547552232
+    second: footagecrate-lasersword-damaged-red-prev-full_49
+  - first:
+      213: -2303796361830231132
+    second: footagecrate-lasersword-damaged-red-prev-full_50
+  - first:
+      213: 8368550533305644741
+    second: footagecrate-lasersword-damaged-red-prev-full_51
+  - first:
+      213: 3269203030374898290
+    second: footagecrate-lasersword-damaged-red-prev-full_52
+  - first:
+      213: 6219594574089856754
+    second: footagecrate-lasersword-damaged-red-prev-full_53
+  - first:
+      213: -6422770890941178171
+    second: footagecrate-lasersword-damaged-red-prev-full_54
+  - first:
+      213: 2876178571026089680
+    second: footagecrate-lasersword-damaged-red-prev-full_55
+  - first:
+      213: -670362701387847954
+    second: footagecrate-lasersword-damaged-red-prev-full_56
+  - first:
+      213: 8273703753987486768
+    second: footagecrate-lasersword-damaged-red-prev-full_57
+  - first:
+      213: 2370975575478560837
+    second: footagecrate-lasersword-damaged-red-prev-full_58
+  - first:
+      213: -4920261308842293138
+    second: footagecrate-lasersword-damaged-red-prev-full_59
+  - first:
+      213: 7257357495686826024
+    second: footagecrate-lasersword-damaged-red-prev-full_60
+  - first:
+      213: -2309931734964142647
+    second: footagecrate-lasersword-damaged-red-prev-full_61
+  - first:
+      213: -3399898368736249801
+    second: footagecrate-lasersword-damaged-red-prev-full_62
+  - first:
+      213: -1625307227809800073
+    second: footagecrate-lasersword-damaged-red-prev-full_63
+  - first:
+      213: 2196898926051152401
+    second: footagecrate-lasersword-damaged-red-prev-full_64
+  - first:
+      213: -5075481568901327679
+    second: footagecrate-lasersword-damaged-red-prev-full_65
+  - first:
+      213: 4781893787526108527
+    second: footagecrate-lasersword-damaged-red-prev-full_66
+  - first:
+      213: 2525200157302494351
+    second: footagecrate-lasersword-damaged-red-prev-full_67
+  - first:
+      213: 6817642867080265256
+    second: footagecrate-lasersword-damaged-red-prev-full_68
+  - first:
+      213: 496975175975909527
+    second: footagecrate-lasersword-damaged-red-prev-full_69
+  - first:
+      213: -5535398101879213609
+    second: footagecrate-lasersword-damaged-red-prev-full_70
+  - first:
+      213: 5370958382251447904
+    second: footagecrate-lasersword-damaged-red-prev-full_71
+  - first:
+      213: 1635127939407504928
+    second: footagecrate-lasersword-damaged-red-prev-full_72
+  - first:
+      213: -2120890836657099305
+    second: footagecrate-lasersword-damaged-red-prev-full_73
+  - first:
+      213: 5910864793120717169
+    second: footagecrate-lasersword-damaged-red-prev-full_74
+  - first:
+      213: -7371389617122883849
+    second: footagecrate-lasersword-damaged-red-prev-full_75
+  - first:
+      213: -6086083738408292956
+    second: footagecrate-lasersword-damaged-red-prev-full_76
+  - first:
+      213: -8870101451291628889
+    second: footagecrate-lasersword-damaged-red-prev-full_77
+  - first:
+      213: 3273723930310409708
+    second: footagecrate-lasersword-damaged-red-prev-full_78
+  - first:
+      213: 1212601512924378293
+    second: footagecrate-lasersword-damaged-red-prev-full_79
+  - first:
+      213: 718014750315272726
+    second: footagecrate-lasersword-damaged-red-prev-full_80
+  - first:
+      213: -1939977036717829632
+    second: footagecrate-lasersword-damaged-red-prev-full_81
+  - first:
+      213: 7900697254253066436
+    second: footagecrate-lasersword-damaged-red-prev-full_82
+  - first:
+      213: 4027986720048205170
+    second: footagecrate-lasersword-damaged-red-prev-full_83
+  - first:
+      213: 7572839433770994561
+    second: footagecrate-lasersword-damaged-red-prev-full_84
+  - first:
+      213: -1323422433237622068
+    second: footagecrate-lasersword-damaged-red-prev-full_85
+  - first:
+      213: -1625401987896710456
+    second: footagecrate-lasersword-damaged-red-prev-full_86
+  - first:
+      213: 5319220644792023252
+    second: footagecrate-lasersword-damaged-red-prev-full_87
+  - first:
+      213: 2061889241610435166
+    second: footagecrate-lasersword-damaged-red-prev-full_88
+  - first:
+      213: -8059800224594988670
+    second: footagecrate-lasersword-damaged-red-prev-full_89
+  - first:
+      213: 7422385834671035647
+    second: footagecrate-lasersword-damaged-red-prev-full_90
+  - first:
+      213: -2979094330584769227
+    second: footagecrate-lasersword-damaged-red-prev-full_91
+  - first:
+      213: 3149923476113647362
+    second: footagecrate-lasersword-damaged-red-prev-full_92
+  - first:
+      213: 1152457383543277690
+    second: footagecrate-lasersword-damaged-red-prev-full_93
+  - first:
+      213: 3403820381119888857
+    second: footagecrate-lasersword-damaged-red-prev-full_94
+  - first:
+      213: 6442113925832451173
+    second: footagecrate-lasersword-damaged-red-prev-full_95
+  - first:
+      213: -3095219150803221476
+    second: footagecrate-lasersword-damaged-red-prev-full_96
+  - first:
+      213: 5268285011880372732
+    second: footagecrate-lasersword-damaged-red-prev-full_97
+  - first:
+      213: -7200280728673819067
+    second: footagecrate-lasersword-damaged-red-prev-full_98
+  - first:
+      213: 8640655235489502716
+    second: footagecrate-lasersword-damaged-red-prev-full_99
+  - first:
+      213: -5116592657326102984
+    second: footagecrate-lasersword-damaged-red-prev-full_100
+  - first:
+      213: 904088020258676111
+    second: footagecrate-lasersword-damaged-red-prev-full_101
+  - first:
+      213: -710929088982096204
+    second: footagecrate-lasersword-damaged-red-prev-full_102
+  - first:
+      213: -1719855255162370575
+    second: footagecrate-lasersword-damaged-red-prev-full_103
+  - first:
+      213: 3300470580018568131
+    second: footagecrate-lasersword-damaged-red-prev-full_104
+  - first:
+      213: -7462118990257496690
+    second: footagecrate-lasersword-damaged-red-prev-full_105
+  - first:
+      213: 728344917112894751
+    second: footagecrate-lasersword-damaged-red-prev-full_106
+  - first:
+      213: -5926494386764528277
+    second: footagecrate-lasersword-damaged-red-prev-full_107
+  - first:
+      213: -7207758423690632584
+    second: footagecrate-lasersword-damaged-red-prev-full_108
+  - first:
+      213: 4356619684600355602
+    second: footagecrate-lasersword-damaged-red-prev-full_109
+  - first:
+      213: -6532927442926328826
+    second: footagecrate-lasersword-damaged-red-prev-full_110
+  - first:
+      213: -4276746075630550236
+    second: footagecrate-lasersword-damaged-red-prev-full_111
+  - first:
+      213: 3685600659241902414
+    second: footagecrate-lasersword-damaged-red-prev-full_112
+  - first:
+      213: -7444302224364303256
+    second: footagecrate-lasersword-damaged-red-prev-full_113
+  - first:
+      213: -2518432440258327786
+    second: footagecrate-lasersword-damaged-red-prev-full_114
+  - first:
+      213: 4679228399100345864
+    second: footagecrate-lasersword-damaged-red-prev-full_115
+  - first:
+      213: 6903753766009276721
+    second: footagecrate-lasersword-damaged-red-prev-full_116
+  - first:
+      213: 6244682376167242479
+    second: footagecrate-lasersword-damaged-red-prev-full_117
+  - first:
+      213: -6345598290757086608
+    second: footagecrate-lasersword-damaged-red-prev-full_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f001ffef1aa123530800000000000000
+      internalID: 3833155515915898895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1070
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43594d121f90a2820800000000000000
+      internalID: 2894136641798313268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_2
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1071
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be72a3e7d5d5a860800000000000000
+      internalID: 7540668274315525815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_3
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1065
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86af642e54bbd4c10800000000000000
+      internalID: 2039492115092142696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_4
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1069
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa9daef1f6e99910800000000000000
+      internalID: 1844759449419225760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_5
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1068
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b312463861c6e90800000000000000
+      internalID: -7031220164655760601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_6
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1071
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d10280eb43cedbc0800000000000000
+      internalID: -3756350308523834920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_7
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1075
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb9c402d96894370800000000000000
+      internalID: 8307318997071469508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_8
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1068
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b99c887fb3b79e0800000000000000
+      internalID: -1622637306399057085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_9
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1069
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c62868678e35e750800000000000000
+      internalID: 6333537202259633864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_10
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1063
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5053d08d6d780d0800000000000000
+      internalID: -3420529168541743643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_11
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1067
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13214660162c3b00800000000000000
+      internalID: 809563884896723743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_12
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1069
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcd613314535bf90800000000000000
+      internalID: -6938581096748098339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_13
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1073
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad283a06b2ce1e10800000000000000
+      internalID: 2170386157550448043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_14
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1067
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59db9ebcc34475e0800000000000000
+      internalID: -1912829395075344034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_15
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1066
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcff3843b1efe76c0800000000000000
+      internalID: -4143595214335639601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1066
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9141bf33f0bfc50800000000000000
+      internalID: 6699965586573892075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_17
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1065
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4f25242ab41b200800000000000000
+      internalID: 194019419223160034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_18
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1066
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bf695f5bedd4200800000000000000
+      internalID: 166033634373335889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_19
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1067
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cb4cc6448d78610800000000000000
+      internalID: 1623503979084561447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_20
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1067
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835f23915b8f8b730800000000000000
+      internalID: 4015232524496336184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_21
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1064
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f5c32f7655772d0800000000000000
+      internalID: -3281059898582081743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_22
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1059
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718bb5c221cf709b0800000000000000
+      internalID: -5113841696872089577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_23
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1066
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741bc1b29366da9b0800000000000000
+      internalID: -5067281609999470265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_24
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1066
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90f3a6bf93d27b60800000000000000
+      internalID: 7742483392320762015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_25
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1067
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726ce947184f5cc60800000000000000
+      internalID: 7837939563352737319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_26
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1067
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a05536f8f5bfc730800000000000000
+      internalID: 4021633073152348327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_27
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1066
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69ecc8f23efe83a0800000000000000
+      internalID: -6661107303958386322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_28
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1065
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4590f687cac697950800000000000000
+      internalID: 6447303829568293204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 916
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0e3c1c0f10b19b0800000000000000
+      internalID: -5108487218767077204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 872
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009f54d0c255a2e80800000000000000
+      internalID: -8202650123612325632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_31
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 843
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854752b5c7ec661b0800000000000000
+      internalID: -5663612447871372200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_32
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 756
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8401be96d96ea850800000000000000
+      internalID: 6390161291791631503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_33
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 738
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62677975e9658fac0800000000000000
+      internalID: -3821209045749500378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 681
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9612db3b3146900800000000000000
+      internalID: 676687506705574366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 641
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efc125f11f2691c0800000000000000
+      internalID: -4497355423709278233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_36
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 630
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba510068d6c9b10b0800000000000000
+      internalID: -5756835704449526357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 597
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14145fbdc1af07370800000000000000
+      internalID: 8318423513609617729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_38
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 577
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa32e62065b244f0800000000000000
+      internalID: -845914355418383622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_39
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 563
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5adcf193c662b50800000000000000
+      internalID: 6568056099168953780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_40
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 568
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7476d27f1392d23c0800000000000000
+      internalID: -4382801567784540345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_41
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 550
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744049e56d971e990800000000000000
+      internalID: -7358466354529958841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_42
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 511
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46d4f3ee3eb05d0800000000000000
+      internalID: -3095129706483325729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_43
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 489
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2008717557771f0800000000000000
+      internalID: -1047239371423481140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_44
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 481
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6206a42334a71b750800000000000000
+      internalID: 6318966181202649126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_45
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 448
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ee605b84cac8810800000000000000
+      internalID: 1768978181924515467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_46
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 414
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3db9060c58ccb310800000000000000
+      internalID: 1422231879906082108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_47
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 417
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28774843a24107c10800000000000000
+      internalID: 2049160001955854210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 406
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce505640ecfef7b0800000000000000
+      internalID: -5188431680501686592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_49
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 408
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81815479d7e3aeaf0800000000000000
+      internalID: -366411710547552232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_50
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 394
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3954a3a654700e0800000000000000
+      internalID: -2303796361830231132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_51
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 304
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6b69e1f50132470800000000000000
+      internalID: 8368550533305644741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_52
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 267
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a502cc5da8e5d20800000000000000
+      internalID: 3269203030374898290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_53
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 173
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6a293ff40705650800000000000000
+      internalID: 6219594574089856754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_54
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce5bbb67ebbdd6a0800000000000000
+      internalID: -6422770890941178171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_55
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6c994fb2d3ae720800000000000000
+      internalID: 2876178571026089680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_56
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 7
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee62b11cca462b6f0800000000000000
+      internalID: -670362701387847954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_57
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 11
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0347d317ab912d270800000000000000
+      internalID: 8273703753987486768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548e68359b567e020800000000000000
+      internalID: 2370975575478560837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_59
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 12
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e684b548868b7bbb0800000000000000
+      internalID: -4920261308842293138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_60
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 11
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8288e62f03057b460800000000000000
+      internalID: 7257357495686826024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_61
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 7
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd7f0a535971ffd0800000000000000
+      internalID: -2309931734964142647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_62
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 9
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738bb03727221d0d0800000000000000
+      internalID: -3399898368736249801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_63
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 6
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770a58300bfb179e0800000000000000
+      internalID: -1625307227809800073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_64
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 11
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11257befee3fc7e10800000000000000
+      internalID: 2196898926051152401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_65
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 7
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4189577644099b0800000000000000
+      internalID: -5075481568901327679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_66
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65142f6013bc5240800000000000000
+      internalID: 4781893787526108527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_67
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8496caf9205b0320800000000000000
+      internalID: 2525200157302494351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_68
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 9
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e7bc1f0122d9e50800000000000000
+      internalID: 6817642867080265256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_69
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 4
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7983b3a1a4c95e600800000000000000
+      internalID: 496975175975909527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_70
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 8
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d13e1f01c05e23b0800000000000000
+      internalID: -5535398101879213609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_71
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 7
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066118d213a798a40800000000000000
+      internalID: 5370958382251447904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_72
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02663b6923421b610800000000000000
+      internalID: 1635127939407504928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_73
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 12
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd2ca165051192e0800000000000000
+      internalID: -2120890836657099305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_74
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 4
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179b255563c970250800000000000000
+      internalID: 5910864793120717169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_75
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 9
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f64362d23093b990800000000000000
+      internalID: -7371389617122883849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_76
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 6
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad64ead513e98ba0800000000000000
+      internalID: -6086083738408292956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_77
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 9
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aae512d9b117e480800000000000000
+      internalID: -8870101451291628889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_78
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedf8d6d19a9e6d20800000000000000
+      internalID: 3273723930310409708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_79
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 11
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b475ffb6a604d010800000000000000
+      internalID: 1212601512924378293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_80
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 6
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a58087c96e6f900800000000000000
+      internalID: 718014750315272726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_81
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 12
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002d40ed921d315e0800000000000000
+      internalID: -1939977036717829632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_82
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c878a50b4ae4ad60800000000000000
+      internalID: 7900697254253066436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_83
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc678a49846e730800000000000000
+      internalID: 4027986720048205170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_84
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 11
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b8df6a751281960800000000000000
+      internalID: 7572839433770994561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_85
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 6
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2a61b0f4242ade0800000000000000
+      internalID: -1323422433237622068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_86
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 7
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cae336f0896179e0800000000000000
+      internalID: -1625401987896710456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_87
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8b0c67efaa1d940800000000000000
+      internalID: 5319220644792023252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_88
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ab364475d4d9c10800000000000000
+      internalID: 2061889241610435166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_89
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281f66cf566d52090800000000000000
+      internalID: -8059800224594988670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_90
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 7
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff45575579c910760800000000000000
+      internalID: 7422385834671035647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_91
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 3
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d5d118d7128a6d0800000000000000
+      internalID: -2979094330584769227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_92
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 7
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207ea6766b6c6bb20800000000000000
+      internalID: 3149923476113647362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_93
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a788fd462e95eff00800000000000000
+      internalID: 1152457383543277690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_94
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddb2e73a9ccc3f20800000000000000
+      internalID: 3403820381119888857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_95
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 9
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56427d7db7cf66950800000000000000
+      internalID: 6442113925832451173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_96
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 4
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14436ed4929b05d0800000000000000
+      internalID: -3095219150803221476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_97
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9e4a44e45bc1940800000000000000
+      internalID: 5268285011880372732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_98
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5466e4473d6731c90800000000000000
+      internalID: -7200280728673819067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_99
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf598f11826c9e770800000000000000
+      internalID: 8640655235489502716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_100
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836a4b746163ef8b0800000000000000
+      internalID: -5116592657326102984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_101
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d543da347fb8c00800000000000000
+      internalID: 904088020258676111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_102
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 5
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6eabe92c54226f0800000000000000
+      internalID: -710929088982096204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_103
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f545f2f1c8d128e0800000000000000
+      internalID: -1719855255162370575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_104
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 11
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb52a18180adcd20800000000000000
+      internalID: 3300470580018568131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_105
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 5
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d510a705a317890800000000000000
+      internalID: -7462118990257496690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_106
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 9
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15b97ad7d99b1a00800000000000000
+      internalID: 728344917112894751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_107
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 3
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65cd8151ccd0cda0800000000000000
+      internalID: -5926494386764528277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_108
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 7
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8722719e6e5e8fb90800000000000000
+      internalID: -7207758423690632584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_109
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 10
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b14125582d57c30800000000000000
+      internalID: 4356619684600355602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_110
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604a9f48a116655a0800000000000000
+      internalID: -6532927442926328826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_111
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423ce777a12f5a4c0800000000000000
+      internalID: -4276746075630550236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_112
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e412f0eb542e52330800000000000000
+      internalID: 3685600659241902414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_113
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c8d1c819680b890800000000000000
+      internalID: -7444302224364303256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_114
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b059fe90bbc0dd0800000000000000
+      internalID: -2518432440258327786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_115
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 5
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ebb47ff65ffe040800000000000000
+      internalID: 4679228399100345864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_116
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 3
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1398fb7f87f0fcf50800000000000000
+      internalID: 6903753766009276721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_117
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea379e098199a650800000000000000
+      internalID: 6244682376167242479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footagecrate-lasersword-damaged-red-prev-full_118
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 0
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072191899f7efe7a0800000000000000
+      internalID: -6345598290757086608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
