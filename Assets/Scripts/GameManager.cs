@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Dynamic;
+using UnityEngine.InputSystem.Controls;
 
 public class GameManager : MonoBehaviour
 {
@@ -65,8 +66,10 @@ public class GameManager : MonoBehaviour
      }
 
         if (!isGameActive){
-            if (Input.GetKey(KeyCode.R)){
+            if (Input.GetKey(KeyCode.R))
+            {
                 RestartGame();
+                Time.timeScale = 1;
             }
         }
 
@@ -81,9 +84,10 @@ public class GameManager : MonoBehaviour
     }
 
     public void GameOver(){
-        mainAudio.Stop();
         mainAudio.PlayOneShot(gameOverSong);
+
         MainManager.instance.SaveScore();
+        Time.timeScale = 0;
         isGameActive = false;
         gameOverScreen.SetActive(true);
         gameOverScore.text = "Score: " + score;

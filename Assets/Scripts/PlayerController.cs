@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Timeline.Actions;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class PlayerController : MonoBehaviour
 
     private GameManager gameman;
 
-  private float attackTimer;
+    private float attackTimer;
+
+    public PauseMenu P;
     private float horizontalInput;
 
     private float timeToShoot = 0.2f;
@@ -47,6 +50,13 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if(gameman.isGameActive){
+        
+            if (Keyboard.current.pKey.wasPressedThisFrame)
+    {
+        P.Pause();
+    }
+
+        
         verticalInput = Input.GetAxis("Vertical");
         horizontalInput = Input.GetAxis("Horizontal");
 
