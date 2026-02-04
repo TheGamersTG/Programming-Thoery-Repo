@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
 
 //INHERITANCE
 
-private float ySpawnPos = 4.5f;
+private float ySpawnPos = 2.0f;
     protected int HP = 5;
 
 
@@ -55,7 +55,7 @@ private float ySpawnPos = 4.5f;
     }
 
     public Vector2 RandomSpawnPos(){
-        return new Vector2(15,  Random.Range(-ySpawnPos, ySpawnPos));
+        return new Vector2(5,  Random.Range(-ySpawnPos, ySpawnPos));
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

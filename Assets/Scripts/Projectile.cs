@@ -4,7 +4,7 @@ public class Projectile : MonoBehaviour
 {
 
     protected int xBound = 15;
-    protected int speed = 15;
+    protected int speed = 5;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

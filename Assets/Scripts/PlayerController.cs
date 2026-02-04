@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Timeline.Actions;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,9 +18,9 @@ public class PlayerController : MonoBehaviour
     private float timeToShoot = 0.2f;
     private float iFrames = 2;
 
-    private float leftBound = -12;
+    private float leftBound = -3.1f;
     
-    private float verticalBound = 4.5f;
+    private float verticalBound = 1.6f;
 
     public AudioSource PlayerAudio;
 
