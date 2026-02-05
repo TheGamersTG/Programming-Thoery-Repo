@@ -37,9 +37,12 @@ public class GameManager : MonoBehaviour
 
     public float Timer = 0;
 
+    private int bossChecker;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        bossChecker = 0;
         StartCoroutine(SpawnEnemies());
 
     }
@@ -49,7 +52,15 @@ public class GameManager : MonoBehaviour
         while(isGameActive){
             yield return new WaitForSeconds(spawnRate);
             index = getIndex();
+            bossChecker += 1;
+            if (bossChecker != 3){
             Instantiate(Enemies[index]);
+            }
+            else
+            {
+                Instantiate(Enemies[3]);
+            }
+            ;
         }
     }
 

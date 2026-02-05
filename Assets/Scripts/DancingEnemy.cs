@@ -5,7 +5,7 @@ public class DancingEnemy : Enemy
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     //INHERITANCE
 
-    private float topBound = 4.5f;
+    private float topBound = 1.5f;
     private int direction = 1;
     void Start()
     {

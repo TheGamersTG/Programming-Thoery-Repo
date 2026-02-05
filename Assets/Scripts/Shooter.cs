@@ -26,8 +26,7 @@ public class Shooter : Enemy
         if (transform.position.x > xLimit){
         Movement();
         }
-
-        if (canShoot){
+        else if (canShoot){
         Shoot();
         }
 
@@ -44,7 +43,7 @@ public class Shooter : Enemy
     }
 
     void generateMaxX(){
-        xLimit = Random.Range(8, 12);
+        xLimit = Random.Range(1, 3);
     }
 
     private void Shoot(){

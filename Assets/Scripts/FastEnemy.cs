@@ -9,7 +9,7 @@ public class FastEnemy : Enemy
     {
         gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
         HP = 3;
-        speed = 15;
+        speed = 7;
         xLimit = -15;
         transform.position = RandomSpawnPos();
         scorePoints = 3;

@@ -1374,6 +1374,7 @@ MonoBehaviour:
   - {fileID: 8797736770510621382, guid: 088b724e0589c3940a164ff29c0522ff, type: 3}
   - {fileID: 5281285496714137635, guid: 6ab8f594c93723c4a803e2b175688329, type: 3}
   - {fileID: 8860861261106327218, guid: 42af8c7986eb8654f9b178b662c6592e, type: 3}
+  - {fileID: 8797736770510621382, guid: 28e339b29135a2a42ab7fe5cf3cc4589, type: 3}
   Score: {fileID: 879762503}
   HScore: {fileID: 218462030}
   gameOverScreen: {fileID: 1677501770}
@@ -3055,7 +3056,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2956589307326155229, guid: a14a61105ab96254b940b734d3bfeb8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.113
+      value: 4.57
       objectReference: {fileID: 0}
     - target: {fileID: 2956589307326155229, guid: a14a61105ab96254b940b734d3bfeb8b, type: 3}
       propertyPath: m_LocalPosition.y
