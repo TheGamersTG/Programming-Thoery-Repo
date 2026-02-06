@@ -47,11 +47,17 @@ private float ySpawnPos = 1.5f;
             EnemyAudio.PlayOneShot(ouch);
         }
         else {
+            Debug.Log("ENEMY is dead!");
+            Die();
+        }
+
+    }
+
+    public virtual void Die()
+    {
             EnemyAudio.PlayOneShot(death);
             gameman.score += scorePoints;
             Destroy(gameObject);
-        }
-
     }
 
     public Vector2 RandomSpawnPos(){

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8553081909350937119}
   - component: {fileID: 7622924382433987859}
   - component: {fileID: 2287850599991374930}
-  - component: {fileID: 8756919142355403257}
   - component: {fileID: -3742436698532230177}
   - component: {fileID: 4782533324721876295}
   - component: {fileID: 7766394364720324042}
@@ -119,25 +118,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8756919142355403257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8797736770510621382}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5bab0f95c217ff41b4d96925cc40554, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scorePoints: 0
-  EnemyAudio: {fileID: -3742436698532230177}
-  ouch: {fileID: 8300000, guid: 167732a5b77782449b3e975038fbc935, type: 3}
-  death: {fileID: 8300000, guid: d37f6ca28e0f66e4399bf6af5a652f96, type: 3}
-  gameman: {fileID: 0}
-  shoot2: {fileID: 8300000, guid: c048dfe81d05e7243b32e20a305d5e35, type: 3}
-  eProjectilePrefab: {fileID: 4730324763893747072, guid: 2dcf5eec94ad9754d986a5a6492b9d8a, type: 3}
 --- !u!82 &-3742436698532230177
 AudioSource:
   m_ObjectHideFlags: 0

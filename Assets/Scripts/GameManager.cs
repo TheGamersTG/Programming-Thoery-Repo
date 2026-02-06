@@ -64,6 +64,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void Wipe()
+    {
+        Debug.Log("KILL ALL ENEMIS");
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach(GameObject enemy in enemies)
+        {
+            Debug.Log("ENEMY SPOTTED");
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
