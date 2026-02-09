@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Boss : Enemy
 {
+
+    public bool isDead; //check the boss died so it doesnt kill it over and over again
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     //INHERITANCE
     void Start()
@@ -13,6 +15,7 @@ public class Boss : Enemy
         xLimit = 1;
         transform.position = new Vector2(4, 0);
         scorePoints = 6;
+        isDead = false;
     }
     //POLYMORPHISM
 
@@ -25,17 +28,20 @@ public class Boss : Enemy
     
     public override void Die()
     {
-        gameman.mainAudio.Stop();
-        gameman.isGameActive = false;
-        gameman.Wipe();
-        StartCoroutine(Death());
+        if (!isDead){
+            isDead = true;
+            gameman.mainAudio.Stop();
+            gameman.isGameActive = false;
+            gameman.Wipe();
+            StartCoroutine(Death());
+        }
     }
 
     IEnumerator Death(){
             EnemyAudio.PlayOneShot(death);
             yield return new WaitForSeconds(death.length);
             Destroy(gameObject);
-            gameman.GameOver(); //do gameman.win instead
+            gameman.Win(); //do gameman.win instead
      }
 
 

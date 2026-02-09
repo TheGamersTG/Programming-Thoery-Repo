@@ -69,5 +69,11 @@ private float ySpawnPos = 1.5f;
         if(collision.CompareTag("Projectile")){
             takeDamage();
         }
+
+         if(collision.CompareTag("Shockwave")){
+            Die();
+        }
     }
+
+    
 }

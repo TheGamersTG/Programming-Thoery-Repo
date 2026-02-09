@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.Collections;
 using TMPro;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using System.Dynamic;
-using UnityEngine.InputSystem.Controls;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,9 +12,13 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI Score;
 
+    public GameObject Shockwave;
+
     public TextMeshProUGUI HScore;
 
     public GameObject gameOverScreen;
+
+    public WinScreen w;
     public TextMeshProUGUI gameOverScore;
 
     public TextMeshProUGUI gameOverHS;
@@ -36,7 +37,6 @@ public class GameManager : MonoBehaviour
     public int index;
 
     public float Timer = 0;
-
     private int bossChecker;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -45,6 +45,11 @@ public class GameManager : MonoBehaviour
         bossChecker = 0;
         StartCoroutine(SpawnEnemies());
 
+    }
+
+    public void Win()
+    {
+        w.win();
     }
 
     IEnumerator SpawnEnemies()
@@ -66,13 +71,15 @@ public class GameManager : MonoBehaviour
 
     public void Wipe()
     {
-        Debug.Log("KILL ALL ENEMIS");
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-        foreach(GameObject enemy in enemies)
+        Instantiate(Shockwave);
+
+        GameObject[] projectiles = GameObject.FindGameObjectsWithTag("Projectile");
+             foreach(GameObject projectile in projectiles)
         {
-            Debug.Log("ENEMY SPOTTED");
+            Destroy(projectile);
         }
+
     }
 
     // Update is called once per frame
@@ -137,6 +144,11 @@ public class GameManager : MonoBehaviour
         }
 
         return currIndex;
+    }
+
+    public int getScore()
+    {
+        return score;
     }
 
 
