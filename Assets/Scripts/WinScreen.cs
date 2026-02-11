@@ -22,7 +22,8 @@ public class WinScreen : MonoBehaviour
     {
         WINSCREEN.SetActive(true);
         Score.text = "Score: " + gameman.getScore();
-        winAudio.PlayOneShot(VictorySong);
+        winAudio.clip = VictorySong;
+        winAudio.Play();
     }
 
     public void mainMenu()
