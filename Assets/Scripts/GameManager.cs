@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> Enemies;
 
+
     public TextMeshProUGUI Score;
 
     public GameObject Shockwave;
@@ -39,11 +40,14 @@ public class GameManager : MonoBehaviour
     public float Timer = 0;
     private int bossChecker;
 
+    public List<GameObject> Backgrounds;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         bossChecker = 0;
         StartCoroutine(SpawnEnemies());
+        setBackground();
 
     }
 
@@ -149,6 +153,20 @@ public class GameManager : MonoBehaviour
     public int getScore()
     {
         return score;
+    }
+    
+
+    //function to set the background depending on what the level is
+    void setBackground()
+    {
+        if (MainManager.instance.level == 1)
+        {
+            Backgrounds[0].SetActive(true);
+        }
+        else if (MainManager.instance.level == 2)
+        {
+            Backgrounds[1].SetActive(true);
+        }
     }
 
 
