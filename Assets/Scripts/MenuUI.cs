@@ -39,6 +39,6 @@ public class MenuUI : MonoBehaviour
     IEnumerator DelayedLoad(){
         audioSource.PlayOneShot(Select);
         yield return new WaitForSeconds(Select.length);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

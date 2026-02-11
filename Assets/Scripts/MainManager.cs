@@ -6,6 +6,8 @@ using System.IO;
 public class MainManager : MonoBehaviour
 {
 
+    public int level;
+
     public int HScore;
 
     //ENCAPSULATION
@@ -26,7 +28,7 @@ public class MainManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        level = 1;
     }
 
     // Update is called once per frame
@@ -34,6 +36,18 @@ public class MainManager : MonoBehaviour
     {
         
     }
+
+//functions to get and set the current level. will be updated with save stuff later
+    public void updateLevel()
+    {
+        level += 1;
+    }
+
+    public int getLevel()
+    {
+        return level;
+    }
+
 [System.Serializable]
 class SaveData
 {

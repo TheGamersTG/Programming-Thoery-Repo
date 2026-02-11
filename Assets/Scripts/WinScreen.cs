@@ -39,6 +39,7 @@ public class WinScreen : MonoBehaviour
 
     public void Continue()
     {
+        MainManager.instance.level += 1;
         winAudio.Stop();
         StartCoroutine(DelayedContinue());
     }
@@ -52,7 +53,7 @@ public class WinScreen : MonoBehaviour
     IEnumerator DelayedContinue(){
         winAudio.PlayOneShot(Select);
         yield return new WaitForSeconds(Select.length);
-        SceneManager.LoadScene(1); //tghis should load scene 2 aka teh cutscene 
+        SceneManager.LoadScene(2); //tghis should load scene 2 aka teh cutscene 
     }
 
     IEnumerator DelayedMenu(){
