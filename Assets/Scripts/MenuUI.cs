@@ -23,8 +23,16 @@ public class MenuUI : MonoBehaviour
         
     }
 
-    public void startGame(){
+    public void newGame(){
+        MainManager.instance.level = 1;
+        MainManager.instance.SaveLevel();
         audioSource.Stop();
+        StartCoroutine(DelayedLoad());
+    }
+
+    public void continueGame(){
+        audioSource.Stop();
+        MainManager.instance.LoadLevel();
         StartCoroutine(DelayedLoad());
     }
 

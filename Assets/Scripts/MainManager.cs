@@ -52,6 +52,7 @@ public class MainManager : MonoBehaviour
 class SaveData
 {
     public int HScore;
+    public int level;
 }
 
 public void SaveScore()
@@ -73,6 +74,28 @@ public void LoadScore()
         SaveData data = JsonUtility.FromJson<SaveData>(json);
 
         HScore = data.HScore;
+    }
+}
+
+public void SaveLevel()
+{
+    SaveData data = new SaveData();
+    data.level = level;
+
+    string json = JsonUtility.ToJson(data);
+  
+    File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
+}
+
+public void LoadLevel()
+{
+    string path = Application.persistentDataPath + "/savefile.json";
+    if (File.Exists(path))
+    {
+        string json = File.ReadAllText(path);
+        SaveData data = JsonUtility.FromJson<SaveData>(json);
+
+        level = data.level;
     }
 }
 }

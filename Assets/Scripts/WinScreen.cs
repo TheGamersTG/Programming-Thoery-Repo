@@ -41,6 +41,7 @@ public class WinScreen : MonoBehaviour
     public void Continue()
     {
         MainManager.instance.level += 1;
+        MainManager.instance.SaveLevel();
         winAudio.Stop();
         StartCoroutine(DelayedContinue());
     }
