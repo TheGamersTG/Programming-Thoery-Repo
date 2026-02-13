@@ -44,9 +44,21 @@ public class MenuUI : MonoBehaviour
         #endif
     }
 
+     public void settings(){
+        audioSource.Stop();
+        StartCoroutine(DelayedSettings());
+    }
+
+
     IEnumerator DelayedLoad(){
         audioSource.PlayOneShot(Select);
         yield return new WaitForSeconds(Select.length);
         SceneManager.LoadScene(2);
+    }
+
+       IEnumerator DelayedSettings(){
+        audioSource.PlayOneShot(Select);
+        yield return new WaitForSeconds(Select.length);
+        SceneManager.LoadScene(3);
     }
 }
