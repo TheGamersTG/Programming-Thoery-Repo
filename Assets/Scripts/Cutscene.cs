@@ -4,9 +4,13 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Cutscene : MonoBehaviour
 {
+
+        public List<Sprite> daveSprites;
+        public Image Dave;
         public TextMeshProUGUI dialogue;
 
         public Dialogue dialogueManager;
@@ -50,6 +54,7 @@ public class Cutscene : MonoBehaviour
             else
             {
              dialogue.text = currDialogue[dia];
+             Dave.sprite = daveSprites[1];
             }
             }
         }

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 768ab9fb6bace5b4dbafe54bac420991
+guid: c00797580e944f640b50c6b1bc06212b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5141782916156611536
-    second: crazydave-dc7v_0
+      213: 600071400158209671
+    second: crazydave-dc7v 1_0
+  - first:
+      213: 8921926409755748479
+    second: crazydave-dc7v 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crazydave-dc7v_0
+      name: crazydave-dc7v 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0dbdfa5e1584b5740800000000000000
-      internalID: 5141782916156611536
+      spriteID: 7862d4652c1e35800800000000000000
+      internalID: 600071400158209671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crazydave-dc7v 1_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78eaad9ccc01db70800000000000000
+      internalID: 8921926409755748479
       vertices: []
       indices: 
       edges: []
