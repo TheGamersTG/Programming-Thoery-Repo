@@ -23,7 +23,7 @@ public class Cutscene : MonoBehaviour
 
         public Dialogue dialogueManager;
 
-        public List<String> currDialogue;
+        public List<DialogueString> currDialogue;
 
 
 //Audio
@@ -69,7 +69,7 @@ public class Cutscene : MonoBehaviour
 
         currDialogue = dialogueManager.getDialogue(level);
         
-        dialogue.text = currDialogue[0];
+        dialogue.text = currDialogue[0].getString();
     }
 
     // Update is called once per frame
@@ -82,8 +82,9 @@ public class Cutscene : MonoBehaviour
                 }
             else
             {
-             dialogue.text = currDialogue[dia];
-             Speaker.GetComponent<SpriteRenderer>().sprite = currSprites[1];
+            int spriteNumber = currDialogue[dia].getFace();
+             dialogue.text = currDialogue[dia].getString();
+             Speaker.GetComponent<SpriteRenderer>().sprite = currSprites[spriteNumber];
             }
             }
         }
