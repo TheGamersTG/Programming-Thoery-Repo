@@ -285,20 +285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78da6eca0781f5e4a81e9bdf40d76385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  failure:
-  - ' failure. '
-  dialogue1:
-  - 'Hello there, little bird! '
-  - 'Welcome to OPILA SHOOTER '
-  - 'I need your help. '
-  - 'This dialogue is not finished. '
-  - 'Why? CAUSE IM CRAZY! '
-  dialogue2:
-  - 'You must help me, my bird sibling. '
-  - 'There is another blue bird on the prowl. '
-  - 'We cannot allow this. '
-  - 'Kill him. '
-  - 'And I will help you. '
 --- !u!4 &102006891
 Transform:
   m_ObjectHideFlags: 0
@@ -772,12 +758,16 @@ MonoBehaviour:
   Speaker: {fileID: 1858530830}
   dialogue: {fileID: 1954450358}
   dialogueManager: {fileID: 102006890}
-  currDialogue: []
   mainAudio: {fileID: 650322910}
   level1Music: {fileID: 8300000, guid: 95d331b74cb0be942b17bd506388af03, type: 3}
   level2Music: {fileID: 8300000, guid: 4e4e31f54840b444b92631d85bec5200, type: 3}
+  daveSounds:
+  - {fileID: 8300000, guid: 40ce2712203803048a7f53d11d15daea, type: 3}
+  - {fileID: 8300000, guid: a012c962252fa0d4597fa20ce30206e3, type: 3}
+  burdSounds:
+  - {fileID: 8300000, guid: ee6b0965771517546b75fe75dd2dbe9b, type: 3}
+  - {fileID: 8300000, guid: 167732a5b77782449b3e975038fbc935, type: 3}
   Background: {fileID: 1497790996}
-  newBackground: {fileID: 0}
   backgroundImage1: {fileID: -5224450111193561246, guid: c998cbd0bb85ffe49896da0660520fb1, type: 3}
   backgroundImage2: {fileID: 6714728152599074487, guid: 9cc6e3c0c49de504fa8d67a4a928bb3b, type: 3}
 --- !u!1 &1497790996

@@ -19,16 +19,16 @@ public class Dialogue : MonoBehaviour
     //The format is the dialogue, the face (based on the position in the list in scene) and the sound effect.
     //DAVE DIALOGUE
       dialogue1.Add(new DialogueString("Hello there, Opila Bird!", 0, 0));  
-      dialogue1.Add(new DialogueString("WELCOME TO OPILA SHOOTER", 1, 0));  
-      dialogue1.Add(new DialogueString("This dialogue is no finished.", 0, 0));  
+      dialogue1.Add(new DialogueString("WELCOME TO OPILA SHOOTER", 1, 1));  
+      dialogue1.Add(new DialogueString("This dialogue is no finished.", 0, 1));  
       dialogue1.Add(new DialogueString("Why?", 0, 0));  
       dialogue1.Add(new DialogueString("CAUSE IM CRAZY!!!", 1, 0));  
 
     //BIRD DIALOGUE
       dialogue2.Add(new DialogueString("You must help me, my bird sibling.", 0, 0));  
-      dialogue2.Add(new DialogueString("There is another blue bird on the prowl.", 1, 0));  
+      dialogue2.Add(new DialogueString("There is another blue bird on the prowl.", 1, 1));  
       dialogue2.Add(new DialogueString("We cannot allow this.", 1, 0));  
-      dialogue2.Add(new DialogueString("Kill him.", 0, 0));  
+      dialogue2.Add(new DialogueString("Kill him.", 0, 1));  
     }
 
 

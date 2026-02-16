@@ -31,11 +31,18 @@ public class Cutscene : MonoBehaviour
 
         public AudioClip level1Music;
         public AudioClip level2Music;
+        
+        //Sounds
+
+        private List<AudioClip> currSounds;
+
+        public List<AudioClip> daveSounds;
+        public List<AudioClip> burdSounds;
 
     //Backgrounds
 
         public GameObject Background;
-        public Sprite newBackground;
+        private Sprite newBackground;
         public Sprite backgroundImage1;
         public Sprite backgroundImage2;
 
@@ -54,10 +61,12 @@ public class Cutscene : MonoBehaviour
         if (level == 1)
         {
             currSprites = daveSprites;
+            currSounds = daveSounds;
             newBackground = backgroundImage1;
         }
         else {
             currSprites = tartraSprites; 
+            currSounds = burdSounds;
             newBackground = backgroundImage2;
         }
        
@@ -68,8 +77,11 @@ public class Cutscene : MonoBehaviour
     
 
         currDialogue = dialogueManager.getDialogue(level);
+
         
         dialogue.text = currDialogue[0].getString();
+        mainAudio.PlayOneShot(currSounds[currDialogue[dia].getSound()]);
+
     }
 
     // Update is called once per frame
@@ -83,7 +95,9 @@ public class Cutscene : MonoBehaviour
             else
             {
             int spriteNumber = currDialogue[dia].getFace();
+            int audioNumber = currDialogue[dia].getSound();
              dialogue.text = currDialogue[dia].getString();
+             mainAudio.PlayOneShot(currSounds[audioNumber]);
              Speaker.GetComponent<SpriteRenderer>().sprite = currSprites[spriteNumber];
             }
             }
