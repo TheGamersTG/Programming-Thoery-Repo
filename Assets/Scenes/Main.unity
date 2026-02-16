@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89905f1bb84f2f347aec540bdecbd979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.025
+  scrollSpeed: 3
   xBound: -7
 --- !u!212 &530780473
 SpriteRenderer:
@@ -1784,7 +1784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89905f1bb84f2f347aec540bdecbd979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.025
+  scrollSpeed: 3
   xBound: -7
 --- !u!212 &783850243
 SpriteRenderer:
@@ -3412,7 +3412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89905f1bb84f2f347aec540bdecbd979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.025
+  scrollSpeed: 3
   xBound: -7
 --- !u!212 &1347729062
 SpriteRenderer:
@@ -4003,7 +4003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89905f1bb84f2f347aec540bdecbd979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.025
+  scrollSpeed: 3
   xBound: -7
 --- !u!1 &1633380847
 GameObject:

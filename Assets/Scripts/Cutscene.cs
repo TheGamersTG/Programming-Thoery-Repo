@@ -32,6 +32,14 @@ public class Cutscene : MonoBehaviour
         public AudioClip level1Music;
         public AudioClip level2Music;
 
+    //Backgrounds
+
+        public GameObject Background;
+        public Sprite newBackground;
+        public Sprite backgroundImage1;
+        public Sprite backgroundImage2;
+
+//track current dialogue
         int dia;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -46,11 +54,14 @@ public class Cutscene : MonoBehaviour
         if (level == 1)
         {
             currSprites = daveSprites;
+            newBackground = backgroundImage1;
         }
         else {
             currSprites = tartraSprites; 
+            newBackground = backgroundImage2;
         }
        
+        Background.GetComponent<SpriteRenderer>().sprite = newBackground;
         Speaker.GetComponent<SpriteRenderer>().sprite = currSprites[0];
         setAudio(level);
         mainAudio.Play();
