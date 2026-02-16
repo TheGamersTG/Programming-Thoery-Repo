@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,14 +10,23 @@ using UnityEngine.UI;
 public class Cutscene : MonoBehaviour
 {
 
+
+    //Character Sprites
         public List<Sprite> daveSprites;
-        public Image Dave;
+        public List<Sprite> tartraSprites;
+
+    
+        private List<Sprite> currSprites;
+
+        public GameObject Speaker;
         public TextMeshProUGUI dialogue;
 
         public Dialogue dialogueManager;
 
         public List<String> currDialogue;
 
+
+//Audio
         public AudioSource mainAudio;
 
         public AudioClip level1Music;
@@ -30,10 +40,18 @@ public class Cutscene : MonoBehaviour
         dia = 0;
         //int level = game or main manager.getLevel()
         //int character = game or main manager.getCharacter()
-        //if level = 1:
-        // dave.setActive()
+    
         int level = MainManager.instance.level;
 
+        if (level == 1)
+        {
+            currSprites = daveSprites;
+        }
+        else {
+            currSprites = tartraSprites; 
+        }
+       
+        Speaker.GetComponent<SpriteRenderer>().sprite = currSprites[0];
         setAudio(level);
         mainAudio.Play();
     
@@ -54,7 +72,7 @@ public class Cutscene : MonoBehaviour
             else
             {
              dialogue.text = currDialogue[dia];
-             Dave.sprite = daveSprites[1];
+             Speaker.GetComponent<SpriteRenderer>().sprite = currSprites[1];
             }
             }
         }
