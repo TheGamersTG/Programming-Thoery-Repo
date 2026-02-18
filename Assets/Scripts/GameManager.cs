@@ -22,6 +22,9 @@ public class GameManager : MonoBehaviour
     public WinScreen w;
     public TextMeshProUGUI gameOverScore;
 
+    public TextMeshProUGUI HP;
+
+
     public TextMeshProUGUI gameOverHS;
 
     public AudioSource mainAudio;
@@ -127,6 +130,13 @@ public class GameManager : MonoBehaviour
         gameOverHS.text = "High Score: " + MainManager.instance.HScore;
 
     }
+
+    public void updateHP(int hp)
+    {
+        HP.text = " HP: " + hp;
+    }
+
+
 
     public void RestartGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

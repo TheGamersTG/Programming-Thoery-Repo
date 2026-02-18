@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class AttackSpeedBoost : Powerup
+public class Heal : Powerup
 {
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public override void PowerUp()
     {
-        opila.attackSpdBuff();
+        opila.changeHP(1);
     }
 
 }

@@ -2,8 +2,19 @@ using UnityEngine;
 
 public class Powerup : MonoBehaviour
 {
+
+    protected PlayerController opila;
+
+    private GameObject playerGameObject;
     public int speed = 1;
     private int xBound = -15;
+
+    void Start()
+    {
+          playerGameObject = GameObject.FindWithTag("Player");
+
+          opila = playerGameObject.GetComponent<PlayerController>();
+    }
 
     void Update()
     {

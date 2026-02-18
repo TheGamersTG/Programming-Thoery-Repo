@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
 
     private int HP = 3;
 
+    private bool IsAttackSPDBuffed = false;
+
     private bool canBeHit = true;
 
 
@@ -44,6 +46,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameman.updateHP(HP);
     }
 
     // Update is called once per frame
@@ -71,12 +74,7 @@ public class PlayerController : MonoBehaviour
                 Shoot();
             }
         }
-        //TESTER CODE 4 POWERUP
-        if (Input.GetKey(KeyCode.J))
-            {
-                attackSpdBuff();
-            }
-
+    
         // ABSTRACTION
         checkBoundary();
 
@@ -94,14 +92,18 @@ public class PlayerController : MonoBehaviour
 
     public void attackSpdBuff()
     {
-        timeToShoot = 0.1f;
+        if (!IsAttackSPDBuffed){
+        timeToShoot = timeToShoot / 2;
+        IsAttackSPDBuffed = true;
+        }
         StartCoroutine(AttackSpd());
+
     }
 // ABSTRACTION
-    void changeHP(int hpAmount){
-        if (HP > 1){
+    public void changeHP(int hpAmount){
+        HP += hpAmount;
+        if (HP != 0){
             PlayerAudio.PlayOneShot(owie);
-            HP = HP + hpAmount;
             canBeHit = false;
             StartCoroutine(IFrames());
         }
@@ -112,6 +114,7 @@ public class PlayerController : MonoBehaviour
             //this would be where id put an exploding animation!
 
         }
+        gameman.updateHP(HP);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -163,7 +166,8 @@ public class PlayerController : MonoBehaviour
 
          IEnumerator AttackSpd(){
             yield return new WaitForSeconds(AttackSpeedBufDuration);
-            timeToShoot = 0.2f;
+            timeToShoot = timeToShoot * 2;
+            IsAttackSPDBuffed = false;
         }
 
 }
