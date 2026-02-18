@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
 
     private bool canShoot = true;
 
+    private float AttackSpeedBufDuration = 10f;
+
     private GameManager gameman;
 
     private float attackTimer;
@@ -54,6 +56,7 @@ public class PlayerController : MonoBehaviour
         P.Pause();
     }
 
+
         
         verticalInput = Input.GetAxis("Vertical");
         horizontalInput = Input.GetAxis("Horizontal");
@@ -68,6 +71,11 @@ public class PlayerController : MonoBehaviour
                 Shoot();
             }
         }
+        //TESTER CODE 4 POWERUP
+        if (Input.GetKey(KeyCode.J))
+            {
+                attackSpdBuff();
+            }
 
         // ABSTRACTION
         checkBoundary();
@@ -82,6 +90,12 @@ public class PlayerController : MonoBehaviour
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
             canShoot = false;
             StartCoroutine(ShootCooldownn());
+    }
+
+    public void attackSpdBuff()
+    {
+        timeToShoot = 0.1f;
+        StartCoroutine(AttackSpd());
     }
 // ABSTRACTION
     void changeHP(int hpAmount){
@@ -145,6 +159,11 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForSeconds(death.length);
             Destroy(gameObject);
             gameman.GameOver();
+        }
+
+         IEnumerator AttackSpd(){
+            yield return new WaitForSeconds(AttackSpeedBufDuration);
+            timeToShoot = 0.2f;
         }
 
 }
