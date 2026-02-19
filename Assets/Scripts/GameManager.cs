@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
 
     public AudioClip gameOverSong;
 
+    public List<GameObject> powerUps;
 
     public float spawnRate = 5.0f;
 

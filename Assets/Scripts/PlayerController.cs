@@ -98,8 +98,8 @@ public class PlayerController : MonoBehaviour
         if (!IsAttackSPDBuffed){
         timeToShoot = timeToShoot / 2;
         IsAttackSPDBuffed = true;
-        }
         StartCoroutine(AttackSpd());
+        }
     }
 
        public void Invinciblability()

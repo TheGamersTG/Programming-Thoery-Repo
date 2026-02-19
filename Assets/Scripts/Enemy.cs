@@ -56,6 +56,7 @@ private float ySpawnPos = 1.5f;
     public virtual void Die()
     {
             EnemyAudio.PlayOneShot(death);
+            CreatePowerup();
             gameman.score += scorePoints;
             Destroy(gameObject);
     }
@@ -75,5 +76,38 @@ private float ySpawnPos = 1.5f;
         }
     }
 
+//spawn powerup on death
+    public void CreatePowerup()
+    {
+        int randomNum = Random.Range(0, 20);
+        if (randomNum == 1){ //1 in 20 chance
+                Debug.Log("SPAWNING POWERUP!!");
+                int index = getIndex();
+                Debug.Log("OKAY! MAKING THE POWERUP NOW.");
+            Instantiate(gameman.powerUps[index], transform.position, gameman.powerUps[index].transform.rotation);
+       // }
+    }
+
+//get the powerup to spawn
+   int getIndex(){
+        int currIndex;
+
+        int randomNum = Random.Range(0, 100);
+
+        if (randomNum <= 10){
+            Debug.Log("invic!");
+            currIndex = 0; //10% chance for invinc
+        }
+        else if (randomNum <= 50){
+            Debug.Log("speed!");
+            currIndex = 2; //40% chance for atk speed
+        }
+        else{
+            Debug.Log("hp!!");
+            currIndex = 1; //60% chance for heal
+        }
+
+        return currIndex;
+    }
     
 }
