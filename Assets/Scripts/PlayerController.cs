@@ -38,7 +38,12 @@ public class PlayerController : MonoBehaviour
 
     private bool IsAttackSPDBuffed = false;
 
+    private bool isInvicible = false;
+
     private bool canBeHit = true;
+
+    private SpriteRenderer opilaSprite;
+    public Color opilaColor;
 
 
 
@@ -48,6 +53,8 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        opilaSprite = GetComponent<SpriteRenderer>();
+         opilaColor = opilaSprite.color;
         gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
         gameman.updateHP(HP);
     }
@@ -98,14 +105,19 @@ public class PlayerController : MonoBehaviour
         if (!IsAttackSPDBuffed){
         timeToShoot = timeToShoot / 2;
         IsAttackSPDBuffed = true;
+        opilaSprite.color = new Color(1, 0, 0);
         StartCoroutine(AttackSpd());
         }
     }
 
        public void Invinciblability()
     {
+        if (!isInvicible){
         canBeHit = false;
+        isInvicible = true;
+        opilaSprite.color = new Color(0, 1, 0);
         StartCoroutine(Invincible());
+        }
 
     }
 // ABSTRACTION
@@ -168,6 +180,14 @@ public class PlayerController : MonoBehaviour
         IEnumerator Invincible(){
         yield return new WaitForSeconds(invincibiltyDuration);
         canBeHit = true;
+        isInvicible = false;
+        if (!IsAttackSPDBuffed){
+        opilaSprite.color = opilaColor;
+        }
+        else
+        {
+            opilaSprite.color= new Color(1, 0, 0);
+        }
         }
 
         IEnumerator ShootCooldownn(){
@@ -186,6 +206,13 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForSeconds(AttackSpeedBufDuration);
             timeToShoot = timeToShoot * 2;
             IsAttackSPDBuffed = false;
+            if (!isInvicible){
+            opilaSprite.color = opilaColor;
+            }
+             else
+            {
+                opilaSprite.color= new Color(0, 1, 0);
+             }
         }
 
 }

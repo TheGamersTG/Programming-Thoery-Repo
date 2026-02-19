@@ -85,7 +85,7 @@ private float ySpawnPos = 1.5f;
                 int index = getIndex();
                 Debug.Log("OKAY! MAKING THE POWERUP NOW.");
             Instantiate(gameman.powerUps[index], transform.position, gameman.powerUps[index].transform.rotation);
-       // }
+        }
     }
 
 //get the powerup to spawn
