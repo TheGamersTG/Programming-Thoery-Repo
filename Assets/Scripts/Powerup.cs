@@ -3,14 +3,20 @@ using UnityEngine;
 public class Powerup : MonoBehaviour
 {
 
+    private AudioSource audioSource;
+    private GameManager gameman;
     protected PlayerController opila;
 
     private GameObject playerGameObject;
+
+    public AudioClip SFX;
     public int speed = 1;
     private int xBound = -15;
 
     void Start()
     {
+        gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
+        audioSource = gameman.mainAudio;
           playerGameObject = GameObject.FindWithTag("Player");
 
           opila = playerGameObject.GetComponent<PlayerController>();
@@ -29,6 +35,7 @@ public class Powerup : MonoBehaviour
     {
         if(collision.CompareTag("Player")){
             PowerUp();
+            audioSource.PlayOneShot(SFX);
             Destroy(gameObject);
         }
     }
@@ -37,4 +44,5 @@ public class Powerup : MonoBehaviour
     {
         //Blank
     }
+
 }

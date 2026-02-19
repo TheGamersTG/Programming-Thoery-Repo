@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
@@ -9,6 +10,8 @@ public class PlayerController : MonoBehaviour
     private bool canShoot = true;
 
     private float AttackSpeedBufDuration = 10f;
+    
+    private float invincibiltyDuration = 7f;
 
     private GameManager gameman;
 
@@ -97,11 +100,19 @@ public class PlayerController : MonoBehaviour
         IsAttackSPDBuffed = true;
         }
         StartCoroutine(AttackSpd());
+    }
+
+       public void Invinciblability()
+    {
+        canBeHit = false;
+        StartCoroutine(Invincible());
 
     }
 // ABSTRACTION
     public void changeHP(int hpAmount){
+        int oldHP = HP;
         HP += hpAmount;
+        if (oldHP > HP){
         if (HP != 0){
             PlayerAudio.PlayOneShot(owie);
             canBeHit = false;
@@ -113,6 +124,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(Death());
             //this would be where id put an exploding animation!
 
+        }
         }
         gameman.updateHP(HP);
     }
@@ -149,6 +161,12 @@ public class PlayerController : MonoBehaviour
 
         IEnumerator IFrames(){
         yield return new WaitForSeconds(iFrames);
+        canBeHit = true;
+        }
+
+
+        IEnumerator Invincible(){
+        yield return new WaitForSeconds(invincibiltyDuration);
         canBeHit = true;
         }
 
