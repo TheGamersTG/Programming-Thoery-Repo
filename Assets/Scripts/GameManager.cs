@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> Enemies;
 
+    public GivMeter meter;
+
 
     public TextMeshProUGUI Score;
 
@@ -23,6 +25,9 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI gameOverScore;
 
     public TextMeshProUGUI HP;
+
+    public GameObject UltPrompt;
+
 
 
     public TextMeshProUGUI gameOverHS;
@@ -52,7 +57,7 @@ public class GameManager : MonoBehaviour
         bossChecker = 0;
         StartCoroutine(SpawnEnemies());
         setBackground();
-
+        meter = GameObject.Find("GivMeter").GetComponent<GivMeter>();
     }
 
     public void Win()
@@ -88,6 +93,27 @@ public class GameManager : MonoBehaviour
             Destroy(projectile);
         }
 
+    }
+
+    public void updateMeter(float update)
+    {
+        meter.UpdateSlider(update);
+
+        if (getMeter() == 1)
+        {
+            UltPrompt.SetActive(true);
+        }
+    }
+
+    public float getMeter()
+    {
+        return meter.getSlider();
+    }
+
+    public void resetMeter()
+    {
+        meter.resetSlider();
+        UltPrompt.SetActive(false);
     }
 
     // Update is called once per frame
@@ -179,6 +205,7 @@ public class GameManager : MonoBehaviour
             Backgrounds[1].SetActive(true);
         }
     }
+
 
 
 }

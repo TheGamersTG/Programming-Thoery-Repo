@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using UnityEngineInternal;
 
 public class PlayerController : MonoBehaviour
 {
@@ -85,6 +87,13 @@ public class PlayerController : MonoBehaviour
             }
         }
     
+
+        if (Input.GetKey(KeyCode.U)){
+            if(gameman.getMeter() == 1){
+                Ultimate();
+                gameman.resetMeter();
+            }
+        }
         // ABSTRACTION
         checkBoundary();
 
@@ -144,7 +153,6 @@ public class PlayerController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("EnemyProjectile") || collision.CompareTag("Enemy")){
-            Debug.Log("proj hit!");
             if(gameman.isGameActive){
                 if (canBeHit == true){
                 changeHP(-1);
@@ -214,5 +222,10 @@ public class PlayerController : MonoBehaviour
                 opilaSprite.color= new Color(0, 1, 0);
              }
         }
+
+        public void Ultimate()
+    {
+        gameman.Wipe();
+    }
 
 }
