@@ -51,13 +51,79 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> Backgrounds;
 
+    //wave test
+   //THESE WAVES WILL LATER COME FROM A WAVELIST CLASS THAT HAS ALL THE WAVES. FOR NOW THEY HERE
+    private Wave wave1;
+    private Wave wave2;
+        private Wave wave3;
+
+
+    private List<Wave> waves;
+
+    private int currWave;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        currWave = 0;
+        //CHECK THE LEVEL. GET THE WAVES BASED ON CURRENT LEVEL. THIS IS BASIC CODE FOR NOW
+        //waves = waveManager.getLevelWaves(Level)
+        waves = new List<Wave>();
+        wave1 = new Wave(0, new List<GameObject>{Enemies[1], Enemies[0]}, new List<Vector2>{new Vector2(0, 0), new Vector2(0, 0)}, 1f, false);
+        wave2 = new Wave(0, new List<GameObject>{Enemies[1], Enemies[0], Enemies[2]}, new List<Vector2>{new Vector2(0, 0), new Vector2(0, 0), new Vector2(0, 0)}, 10f, false);
+        wave3 = new Wave(0, new List<GameObject>{Enemies[3], Enemies[0]}, new List<Vector2>{new Vector2(0, 0), new Vector2(0, 0)}, 10f, true);
+        waves.Add(wave1);
+        waves.Add(wave2);
+        waves.Add(wave3);
         bossChecker = 0;
-        StartCoroutine(SpawnEnemies());
+        //StartCoroutine(SpawnEnemies());
+        StartCoroutine(spawnWave());
         setBackground();
         meter = GameObject.Find("GivMeter").GetComponent<GivMeter>();
+    }
+
+    IEnumerator spawnWave()
+    {
+        while(isGameActive){
+        //get current wave
+        Wave currentWave = waves[currWave];
+        
+        //check that there is a current wave
+        if (currentWave != null){
+
+            yield return new WaitForSeconds(currentWave.getTime());
+            //check if this is a boss wave
+            
+        //wait out the timer for this wave to start
+                    
+        //get the list of positions
+        List <Vector2> positions = currentWave.getPostions();
+
+        int currPos = 0;
+        //for each enemy in this wave
+        foreach (GameObject enemy in currentWave.getEnemies())
+        {
+            //spawn them at this position.
+            Instantiate(enemy, positions[currPos], Quaternion.identity);
+            ++currPos;
+        }
+
+        if (!currentWave.CheckifBossWave()){
+        ++currWave; //increase index to move on to next wave
+            }
+            else
+            {
+                Debug.Log("BOSS TIME!");
+                yield break;
+                //do nothing atm, but it would change music and mayyybe? randomly spawning enemies
+            }
+        }
+        else
+        {
+            StartCoroutine(SpawnEnemies());
+        }
+        }
+
     }
 
     public void Win()
@@ -70,15 +136,7 @@ public class GameManager : MonoBehaviour
         while(isGameActive){
             yield return new WaitForSeconds(spawnRate);
             index = getIndex();
-            bossChecker += 1;
-            if (bossChecker != 3){
             Instantiate(Enemies[index]);
-            }
-            else
-            {
-                Instantiate(Enemies[3]);
-            }
-            ;
         }
     }
 
