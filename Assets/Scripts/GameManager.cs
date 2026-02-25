@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections;
 using TMPro;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,11 +29,16 @@ public class GameManager : MonoBehaviour
 
     public GameObject UltPrompt;
 
+    public PauseMenu P;
+
 
 
     public TextMeshProUGUI gameOverHS;
 
     public AudioSource mainAudio;
+
+public AudioSource SFXManager;
+
 
     public AudioClip gameOverSong;
 
@@ -57,15 +63,35 @@ public class GameManager : MonoBehaviour
 
     public int currWave;
 
+    //PlayerCharacters
+
+    private PlayerController player;
+
+    public PlayerController OpilaBird;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //if mainmanager.instance.character = 0
+        player = OpilaBird;
+        Instantiate(player, new Vector2(-3, 0), Quaternion.identity);
         currWave = 0;
         waves = waveMan.GetWaveByLevel();
         //StartCoroutine(SpawnEnemies());
         StartCoroutine(spawnWave());
         setBackground();
         meter = GameObject.Find("GivMeter").GetComponent<GivMeter>();
+    }
+
+
+//get the audiosource for sound effects in game
+    public AudioSource getSoundManager()
+    {
+        return SFXManager;
+    }
+
+    public PauseMenu getPauseMenu()
+    {
+        return P;
     }
 
     IEnumerator spawnWave()

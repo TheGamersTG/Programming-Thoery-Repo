@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     private float attackTimer;
 
-    public PauseMenu P;
+    private PauseMenu P;
     private float horizontalInput;
 
     private float timeToShoot = 0.2f;
@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     
     private float verticalBound = 1.6f;
 
-    public AudioSource PlayerAudio;
+    private AudioSource PlayerAudio;
 
     public AudioClip shoot;
     public AudioClip owie;
@@ -55,10 +55,13 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         opilaSprite = GetComponent<SpriteRenderer>();
-         opilaColor = opilaSprite.color;
+        opilaColor = opilaSprite.color;
         gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
         gameman.updateHP(HP);
+        P = gameman.getPauseMenu();
+        PlayerAudio = gameman.getSoundManager();
     }
 
     // Update is called once per frame
