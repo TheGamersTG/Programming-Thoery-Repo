@@ -47,35 +47,21 @@ public class GameManager : MonoBehaviour
     public int index;
 
     public float Timer = 0;
-    private int bossChecker;
-
     public List<GameObject> Backgrounds;
 
     //wave test
    //THESE WAVES WILL LATER COME FROM A WAVELIST CLASS THAT HAS ALL THE WAVES. FOR NOW THEY HERE
-    private Wave wave1;
-    private Wave wave2;
-        private Wave wave3;
-
-
+      
+    public WaveManager waveMan;
     private List<Wave> waves;
 
-    private int currWave;
+    public int currWave;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currWave = 0;
-        //CHECK THE LEVEL. GET THE WAVES BASED ON CURRENT LEVEL. THIS IS BASIC CODE FOR NOW
-        //waves = waveManager.getLevelWaves(Level)
-        waves = new List<Wave>();
-        wave1 = new Wave(0, new List<GameObject>{Enemies[1], Enemies[0]}, new List<Vector2>{new Vector2(0, 0), new Vector2(0, 0)}, 1f, false);
-        wave2 = new Wave(0, new List<GameObject>{Enemies[1], Enemies[0], Enemies[2]}, new List<Vector2>{new Vector2(0, 0), new Vector2(0, 0), new Vector2(0, 0)}, 10f, false);
-        wave3 = new Wave(0, new List<GameObject>{Enemies[3], Enemies[0]}, new List<Vector2>{new Vector2(0, 0), new Vector2(0, 0)}, 10f, true);
-        waves.Add(wave1);
-        waves.Add(wave2);
-        waves.Add(wave3);
-        bossChecker = 0;
+        waves = waveMan.GetWaveByLevel();
         //StartCoroutine(SpawnEnemies());
         StartCoroutine(spawnWave());
         setBackground();
@@ -87,6 +73,7 @@ public class GameManager : MonoBehaviour
         while(isGameActive){
         //get current wave
         Wave currentWave = waves[currWave];
+
         
         //check that there is a current wave
         if (currentWave != null){

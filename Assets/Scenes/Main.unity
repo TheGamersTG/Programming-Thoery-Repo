@@ -2918,6 +2918,7 @@ MonoBehaviour:
   Backgrounds:
   - {fileID: 401689896}
   - {fileID: 285101412}
+  waveMan: {fileID: 1291926414}
 --- !u!1 &953866656
 GameObject:
   m_ObjectHideFlags: 0
@@ -3740,6 +3741,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214456756}
   m_CullTransparentMesh: 1
+--- !u!1 &1291926413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291926415}
+  - component: {fileID: 1291926414}
+  m_Layer: 0
+  m_Name: WaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1291926414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291926413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b1e55d7498c1142a36df7ff031ec48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level1Enemies:
+  - {fileID: 8797736770510621382, guid: 088b724e0589c3940a164ff29c0522ff, type: 3}
+  - {fileID: 5281285496714137635, guid: 6ab8f594c93723c4a803e2b175688329, type: 3}
+  - {fileID: 8860861261106327218, guid: 42af8c7986eb8654f9b178b662c6592e, type: 3}
+  - {fileID: 8797736770510621382, guid: 28e339b29135a2a42ab7fe5cf3cc4589, type: 3}
+  Level2Enemies: []
+--- !u!4 &1291926415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291926413}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6096635, y: -0.34657905, z: 0.60166866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1312236686
 GameObject:
   m_ObjectHideFlags: 0
@@ -5414,3 +5465,4 @@ SceneRoots:
   - {fileID: 820070671}
   - {fileID: 1174336214}
   - {fileID: 1971764114}
+  - {fileID: 1291926415}
