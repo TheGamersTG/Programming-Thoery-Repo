@@ -68,11 +68,14 @@ public AudioSource SFXManager;
     private PlayerController player;
 
     public PlayerController OpilaBird;
+
+    public PlayerController TartraBird;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //if mainmanager.instance.character = 0
-        player = OpilaBird;
+        player = TartraBird;
         Instantiate(player, new Vector2(-3, 0), Quaternion.identity);
         currWave = 0;
         waves = waveMan.GetWaveByLevel();
@@ -233,7 +236,6 @@ public AudioSource SFXManager;
     {
         HP.text = " HP: " + hp;
     }
-
 
 
     public void RestartGame(){

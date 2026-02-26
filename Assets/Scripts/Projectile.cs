@@ -4,6 +4,8 @@ using UnityEngine.UI;
 public class Projectile : MonoBehaviour
 {
 
+    protected int Damage;
+
     private GivMeter meter;
 
     GameManager gameman;
@@ -36,5 +38,10 @@ public class Projectile : MonoBehaviour
             gameman.updateMeter(0.05f);
             Destroy(gameObject);
         }
+    }
+
+    public int getDamage()
+    {
+        return Damage;
     }
 }

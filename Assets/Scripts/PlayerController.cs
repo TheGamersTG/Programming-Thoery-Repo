@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private PauseMenu P;
     private float horizontalInput;
 
-    private float timeToShoot = 0.2f;
+    protected float timeToShoot;
     private float iFrames = 2;
 
     private float leftBound = -3.1f;
@@ -31,12 +31,13 @@ public class PlayerController : MonoBehaviour
 
     private AudioSource PlayerAudio;
 
+
     public AudioClip shoot;
     public AudioClip owie;
     public AudioClip death;
 
 
-    private int HP = 3;
+    protected int HP;
 
     private bool IsAttackSPDBuffed = false;
 
@@ -51,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
     private float verticalInput;
 
-    public float speed = 5.0f;
+    protected float speed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -67,6 +68,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(canShoot);
         if(gameman.isGameActive){
         
             if (Keyboard.current.pKey.wasPressedThisFrame)
@@ -105,7 +107,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Shoot(){
+     void Shoot(){
             PlayerAudio.PlayOneShot(shoot);
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
             canShoot = false;
@@ -202,7 +204,9 @@ public class PlayerController : MonoBehaviour
         }
 
         IEnumerator ShootCooldownn(){
+        Debug.Log("Waiting to shoot!");
         yield return new WaitForSeconds(timeToShoot);
+        Debug.Log("You can shoot again");
         canShoot = true;
         }
 

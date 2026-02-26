@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8446455168095706083}
   - component: {fileID: 810117530332083120}
   - component: {fileID: 6636770396255622897}
-  - component: {fileID: 574482369962680769}
+  - component: {fileID: 541205709562108767}
   m_Layer: 0
-  m_Name: EarlyProjectile
+  m_Name: EarlyProjectile 1
   m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -4072622106568590741, guid: 9e5636cfd1d0a7d4d86256b2a7cb0806, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.0000121593475, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -125,7 +125,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0020092041, y: -0.0037420136}
   m_Radius: 0.050168928
---- !u!114 &574482369962680769
+--- !u!114 &541205709562108767
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,6 +134,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4730324763893747072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da12df482308c734095adb8f68ad6271, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ecee517d739976468afcb3791fa5f93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

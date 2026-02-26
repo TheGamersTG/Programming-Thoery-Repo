@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 269897092568984832}
   - component: {fileID: 8999940544555323532}
   - component: {fileID: 8384374873498853455}
+  - component: {fileID: 8532683936817482525}
   - component: {fileID: 3197133944772613596}
-  - component: {fileID: 3589107148162871408}
   m_Layer: 0
-  m_Name: Opila
+  m_Name: Tartra
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 4123434870003351927}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.94, y: -0.011, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.898, y: -0.3002, z: 0}
+  m_LocalScale: {x: 1.0503, y: -1.0669422, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -8851699461382138687, guid: 718099cf04597ba47a4c79d8f9098336, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.21634221, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -164,6 +164,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.33523107, y: 0.3475362}
   m_EdgeRadius: 0
+--- !u!114 &8532683936817482525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4123434870003351927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea3e61f724ecb6419fd500975ddef5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4730324763893747072, guid: f83cb5f8d8996854083717d8858269c8, type: 3}
+  shoot: {fileID: 8300000, guid: 5e6e9b2ba8d0f1342b4406ece8171c3d, type: 3}
+  owie: {fileID: 8300000, guid: ee6b0965771517546b75fe75dd2dbe9b, type: 3}
+  death: {fileID: 8300000, guid: 0100b2eac7d40454d8039218858f439d, type: 3}
+  opilaColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!95 &3197133944772613596
 Animator:
   serializedVersion: 7
@@ -186,21 +203,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3589107148162871408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4123434870003351927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c655bbaddf3e8e4d8406e013f45385e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4730324763893747072, guid: c43b093c109f6534080749b7d0a6157b, type: 3}
-  shoot: {fileID: 8300000, guid: 5e6e9b2ba8d0f1342b4406ece8171c3d, type: 3}
-  owie: {fileID: 8300000, guid: ee6b0965771517546b75fe75dd2dbe9b, type: 3}
-  death: {fileID: 8300000, guid: 0100b2eac7d40454d8039218858f439d, type: 3}
-  opilaColor: {r: 0, g: 0, b: 0, a: 0}
-  speed: 5

@@ -41,9 +41,9 @@ private float ySpawnPos = 1.5f;
     public virtual void Movement(){
     }
 // ABSTRACTION
-    public void takeDamage(){
+    public void takeDamage(int damage){
         if (HP > 0){
-            HP = HP - 1;
+            HP = HP - damage;
             EnemyAudio.PlayOneShot(ouch);
         }
         else {
@@ -68,7 +68,11 @@ private float ySpawnPos = 1.5f;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Projectile")){
-            takeDamage();
+            Debug.Log("attempting to deal damage");
+           // Projectile prof = collision.GetComponent<Projectile>();
+           int dmg = collision.gameObject.GetComponent<Projectile>().getDamage();
+           Debug.Log("DEALING " + dmg);
+            takeDamage(dmg);
         }
 
          if(collision.CompareTag("Shockwave")){

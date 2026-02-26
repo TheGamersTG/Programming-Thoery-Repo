@@ -2922,7 +2922,8 @@ MonoBehaviour:
   - {fileID: 285101412}
   waveMan: {fileID: 1291926414}
   currWave: 0
-  OpilaBird: {fileID: 6827443643540993017, guid: a14a61105ab96254b940b734d3bfeb8b, type: 3}
+  OpilaBird: {fileID: 3589107148162871408, guid: 9ce51e3e995c4fd45860ce1343178dc1, type: 3}
+  TartraBird: {fileID: 8532683936817482525, guid: a14a61105ab96254b940b734d3bfeb8b, type: 3}
 --- !u!1 &953866656
 GameObject:
   m_ObjectHideFlags: 0
