@@ -58,6 +58,7 @@ public class Cutscene : MonoBehaviour
     
         int level = MainManager.instance.level;
 
+
         if (level == 1)
         {
             currSprites = daveSprites;

@@ -68,7 +68,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(canShoot);
         if(gameman.isGameActive){
         
             if (Keyboard.current.pKey.wasPressedThisFrame)
@@ -204,9 +203,7 @@ public class PlayerController : MonoBehaviour
         }
 
         IEnumerator ShootCooldownn(){
-        Debug.Log("Waiting to shoot!");
         yield return new WaitForSeconds(timeToShoot);
-        Debug.Log("You can shoot again");
         canShoot = true;
         }
 

@@ -74,15 +74,29 @@ public AudioSource SFXManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //if mainmanager.instance.character = 0
-        player = TartraBird;
-        Instantiate(player, new Vector2(-3, 0), Quaternion.identity);
+        setCharacter();
         currWave = 0;
         waves = waveMan.GetWaveByLevel();
         //StartCoroutine(SpawnEnemies());
         StartCoroutine(spawnWave());
         setBackground();
         meter = GameObject.Find("GivMeter").GetComponent<GivMeter>();
+    }
+
+    public void setCharacter()
+    {
+        if (MainManager.instance.player == 0)
+        {
+            player = OpilaBird;
+        }
+        else if (MainManager.instance.player == 1)
+        {
+            player = TartraBird;
+        }
+
+
+        Instantiate(player, new Vector2(-3, 0), Quaternion.identity);
+
     }
 
 
@@ -129,7 +143,6 @@ public AudioSource SFXManager;
             }
             else
             {
-                Debug.Log("BOSS TIME!");
                 yield break;
                 //do nothing atm, but it would change music and mayyybe? randomly spawning enemies
             }

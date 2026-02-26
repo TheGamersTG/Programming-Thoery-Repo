@@ -32,14 +32,12 @@ public class PauseMenu : MonoBehaviour
 
     public void mainMenu()
     {
-        Debug.Log("GOING TO MAIN MENU");
         SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }
 
     public void QuitGame()
     {
-        Debug.Log("QUIT GAME");
         Application.Quit();
     }
 

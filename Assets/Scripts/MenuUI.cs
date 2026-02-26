@@ -27,12 +27,13 @@ public class MenuUI : MonoBehaviour
         MainManager.instance.level = 1;
         MainManager.instance.SaveLevel();
         audioSource.Stop();
-        StartCoroutine(DelayedLoad());
+        StartCoroutine(DelayedNew());
     }
 
     public void continueGame(){
         audioSource.Stop();
         MainManager.instance.LoadLevel();
+        MainManager.instance.loadPlayer();
         StartCoroutine(DelayedLoad());
     }
 
@@ -49,6 +50,12 @@ public class MenuUI : MonoBehaviour
         StartCoroutine(DelayedSettings());
     }
 
+
+    IEnumerator DelayedNew(){
+        audioSource.PlayOneShot(Select);
+        yield return new WaitForSeconds(Select.length);
+        SceneManager.LoadScene(4);
+    }
 
     IEnumerator DelayedLoad(){
         audioSource.PlayOneShot(Select);

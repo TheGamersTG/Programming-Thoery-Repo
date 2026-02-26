@@ -39,7 +39,6 @@ public List<GameObject> Level2Enemies;
     
         if (MainManager.instance.level == 1)
         {
-            Debug.Log("returned level 1 waves!!!");
             return Level1Waves;
         }
 

@@ -47,7 +47,6 @@ private float ySpawnPos = 1.5f;
             EnemyAudio.PlayOneShot(ouch);
         }
         else {
-            Debug.Log("ENEMY is dead!");
             Die();
         }
 
@@ -68,10 +67,8 @@ private float ySpawnPos = 1.5f;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Projectile")){
-            Debug.Log("attempting to deal damage");
            // Projectile prof = collision.GetComponent<Projectile>();
            int dmg = collision.gameObject.GetComponent<Projectile>().getDamage();
-           Debug.Log("DEALING " + dmg);
             takeDamage(dmg);
         }
 
@@ -85,9 +82,7 @@ private float ySpawnPos = 1.5f;
     {
         int randomNum = Random.Range(0, 20);
         if (randomNum == 1){ //1 in 20 chance
-                Debug.Log("SPAWNING POWERUP!!");
                 int index = getIndex();
-                Debug.Log("OKAY! MAKING THE POWERUP NOW.");
             Instantiate(gameman.powerUps[index], transform.position, gameman.powerUps[index].transform.rotation);
         }
     }
@@ -99,15 +94,12 @@ private float ySpawnPos = 1.5f;
         int randomNum = Random.Range(0, 100);
 
         if (randomNum <= 10){
-            Debug.Log("invic!");
             currIndex = 0; //10% chance for invinc
         }
         else if (randomNum <= 50){
-            Debug.Log("speed!");
             currIndex = 2; //40% chance for atk speed
         }
         else{
-            Debug.Log("hp!!");
             currIndex = 1; //60% chance for heal
         }
 

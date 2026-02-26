@@ -15,12 +15,15 @@ public class WinScreen : MonoBehaviour
 
     public GameManager gameman;
 
+    public GameObject inGameUI;
+
 
     public GameObject WINSCREEN;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void win()
     {
         WINSCREEN.SetActive(true);
+        inGameUI.SetActive(false);
         Score.text = "Score: " + gameman.getScore();
         winAudio.clip = VictorySong;
         winAudio.Play();
@@ -42,6 +45,7 @@ public class WinScreen : MonoBehaviour
     {
         MainManager.instance.level += 1;
         MainManager.instance.SaveLevel();
+        MainManager.instance.savePlayer();
         winAudio.Stop();
         StartCoroutine(DelayedContinue());
     }

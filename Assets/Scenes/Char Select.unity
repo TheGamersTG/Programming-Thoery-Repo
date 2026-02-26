@@ -337,7 +337,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 163636084}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1493003827}
+        m_TargetAssemblyTypeName: CharacterSelect, Assembly-CSharp
+        m_MethodName: Opila
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &163636084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,7 +916,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1283923048}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1493003827}
+        m_TargetAssemblyTypeName: CharacterSelect, Assembly-CSharp
+        m_MethodName: Tartra
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1283923048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,6 +979,7 @@ GameObject:
   - component: {fileID: 1493003826}
   - component: {fileID: 1493003825}
   - component: {fileID: 1493003824}
+  - component: {fileID: 1493003827}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -977,7 +1002,7 @@ RectTransform:
   - {fileID: 1015471489}
   - {fileID: 163636082}
   - {fileID: 1283923046}
-  m_Father: {fileID: 1655434781}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1047,6 +1072,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1493003827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493003822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4158fe2a348c164aaf839dd34d15bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1543967493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,7 +1256,6 @@ Transform:
   m_Children:
   - {fileID: 695290343}
   - {fileID: 644067045}
-  - {fileID: 1493003823}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1655434782
@@ -1357,6 +1393,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1493003823}
   - {fileID: 1655434781}
   - {fileID: 1543967496}
   - {fileID: 1786092165}

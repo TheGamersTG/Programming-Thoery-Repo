@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using Unity.VisualScripting;
 
 public class MainManager : MonoBehaviour
 {
 
+    SaveData data = new SaveData();
+
     public int level;
 
     public int HScore;
+
+    public int player; // 0 = opila, 1 = tartra, ect
 
     //ENCAPSULATION
     public static MainManager instance { get; private set; }
@@ -43,6 +48,16 @@ public class MainManager : MonoBehaviour
         level += 1;
     }
 
+//set the current player.
+    public void setPlayer(int player)
+    {
+        this.player = player;
+    }
+
+  public int getPlayer(int player)
+    {
+       return player;
+    }
     public int getLevel()
     {
         return level;
@@ -53,11 +68,14 @@ class SaveData
 {
     public int HScore;
     public int level;
+    public int player;
+
 }
+
+
 
 public void SaveScore()
 {
-    SaveData data = new SaveData();
     data.HScore = HScore;
 
     string json = JsonUtility.ToJson(data);
@@ -79,7 +97,6 @@ public void LoadScore()
 
 public void SaveLevel()
 {
-    SaveData data = new SaveData();
     data.level = level;
 
     string json = JsonUtility.ToJson(data);
@@ -96,6 +113,27 @@ public void LoadLevel()
         SaveData data = JsonUtility.FromJson<SaveData>(json);
 
         level = data.level;
+    }
+}
+
+    public void savePlayer()
+{
+    data.player = player;
+
+    string json = JsonUtility.ToJson(data);
+  
+    File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
+}
+
+public void loadPlayer()
+{
+    string path = Application.persistentDataPath + "/savefile.json";
+    if (File.Exists(path))
+    {
+        string json = File.ReadAllText(path);
+        SaveData data = JsonUtility.FromJson<SaveData>(json);
+
+        player = data.player;
     }
 }
 }
