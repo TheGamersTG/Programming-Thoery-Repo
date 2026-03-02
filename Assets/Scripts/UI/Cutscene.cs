@@ -10,11 +10,14 @@ using UnityEngine.UI;
 public class Cutscene : MonoBehaviour
 {
 
+    
+    //Player
 
+    public GameObject opila;
+    public GameObject tartra;
     //Character Sprites
         public List<Sprite> daveSprites;
         public List<Sprite> tartraSprites;
-
     
         private List<Sprite> currSprites;
 
@@ -58,6 +61,8 @@ public class Cutscene : MonoBehaviour
     
         int level = MainManager.instance.level;
 
+        setPlayer();
+
 
         if (level == 1)
         {
@@ -84,6 +89,20 @@ public class Cutscene : MonoBehaviour
         mainAudio.PlayOneShot(currSounds[currDialogue[dia].getSound()]);
 
     }
+
+    void setPlayer()
+    {
+        if (MainManager.instance.player == 0)
+        {
+            opila.SetActive(true);
+        }
+        else if (MainManager.instance.player == 1)
+        {
+            tartra.SetActive(true);
+        }
+    }
+
+
 
     // Update is called once per frame
     void Update()
