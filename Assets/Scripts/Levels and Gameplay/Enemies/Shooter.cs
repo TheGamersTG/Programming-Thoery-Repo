@@ -47,13 +47,14 @@ public class Shooter : Enemy
     }
 
     private void Shoot(){
+        if (gameman.getIsGameActive()){
         if (Random.Range(0, 10) < 2){
             EnemyAudio.PlayOneShot(shoot2);
             Instantiate(eProjectilePrefab, transform.position, eProjectilePrefab.transform.rotation);
             canShoot = false;
             StartCoroutine(ShootCooldown());
         }
-    }
+        }}
 
 
 }

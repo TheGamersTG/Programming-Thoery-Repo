@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     public PauseMenu P;
 
-
+    public GameObject deathExplosion;
 
     public TextMeshProUGUI gameOverHS;
 
@@ -130,6 +130,8 @@ public AudioSource SFXManager;
         List <Vector2> positions = currentWave.getPostions();
 
         int currPos = 0;
+
+        if (isGameActive){
         //for each enemy in this wave
         foreach (GameObject enemy in currentWave.getEnemies())
         {
@@ -150,6 +152,7 @@ public AudioSource SFXManager;
         else
         {
             StartCoroutine(SpawnEnemies());
+        }
         }
         }
 
@@ -231,6 +234,11 @@ public AudioSource SFXManager;
     HScore.text = "High Score: " +  MainManager.instance.HScore;
 
 
+    }
+
+    public bool getIsGameActive()
+    {
+        return isGameActive;
     }
 
     public void GameOver(){

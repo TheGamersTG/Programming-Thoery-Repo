@@ -199,8 +199,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4730324763893747072, guid: c43b093c109f6534080749b7d0a6157b, type: 3}
+  explosion: {fileID: 7271933376589818, guid: b7ba4af799f0e594c99848c9b985df44, type: 3}
   shoot: {fileID: 8300000, guid: 5e6e9b2ba8d0f1342b4406ece8171c3d, type: 3}
   owie: {fileID: 8300000, guid: ee6b0965771517546b75fe75dd2dbe9b, type: 3}
   death: {fileID: 8300000, guid: 0100b2eac7d40454d8039218858f439d, type: 3}
   opilaColor: {r: 0, g: 0, b: 0, a: 0}
-  speed: 5

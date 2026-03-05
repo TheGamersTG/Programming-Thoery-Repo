@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject projectilePrefab;
 
+    public GameObject explosion;
+
     private bool canShoot = true;
 
     private float AttackSpeedBufDuration = 10f;
@@ -48,6 +50,8 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer opilaSprite;
     public Color opilaColor;
 
+    private Rigidbody2D rb;
+
 
 
     private float verticalInput;
@@ -56,7 +60,7 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
         opilaSprite = GetComponent<SpriteRenderer>();
         opilaColor = opilaSprite.color;
         gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -209,7 +213,10 @@ public class PlayerController : MonoBehaviour
 
         IEnumerator Death(){
             PlayerAudio.PlayOneShot(death);
-            yield return new WaitForSeconds(death.length);
+            Instantiate(explosion, transform.position, Quaternion.identity);
+            rb.gravityScale = 0.5f;
+            rb.AddForce(new Vector2(-1.5f, 3.5f),ForceMode2D.Impulse);
+            yield return new WaitForSeconds(4);
             Destroy(gameObject);
             gameman.GameOver();
         }
