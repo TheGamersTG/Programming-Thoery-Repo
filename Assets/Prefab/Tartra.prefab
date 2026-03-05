@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea3e61f724ecb6419fd500975ddef5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 4730324763893747072, guid: f83cb5f8d8996854083717d8858269c8, type: 3}
+  projectilePrefab: {fileID: 4808476252806078822, guid: 474ae629b10271843ad94aa93ac6b7b0, type: 3}
   explosion: {fileID: 7271933376589818, guid: b7ba4af799f0e594c99848c9b985df44, type: 3}
   shoot: {fileID: 8300000, guid: 5e6e9b2ba8d0f1342b4406ece8171c3d, type: 3}
   owie: {fileID: 8300000, guid: ee6b0965771517546b75fe75dd2dbe9b, type: 3}

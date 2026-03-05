@@ -2905,6 +2905,7 @@ MonoBehaviour:
   HP: {fileID: 819596640}
   UltPrompt: {fileID: 703886901}
   P: {fileID: 562852255}
+  deathExplosion: {fileID: 0}
   gameOverHS: {fileID: 1430001228}
   mainAudio: {fileID: 801040615}
   SFXManager: {fileID: 1045127641}
