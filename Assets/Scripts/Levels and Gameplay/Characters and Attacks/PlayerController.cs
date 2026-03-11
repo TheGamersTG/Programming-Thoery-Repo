@@ -27,9 +27,9 @@ public class PlayerController : MonoBehaviour
     protected float timeToShoot;
     private float iFrames = 2;
 
-    private float leftBound = -3.1f;
+    private float leftBound = -4.65f;
     
-    private float verticalBound = 1.6f;
+    private float verticalBound = 2.4f;
 
     private AudioSource PlayerAudio;
 

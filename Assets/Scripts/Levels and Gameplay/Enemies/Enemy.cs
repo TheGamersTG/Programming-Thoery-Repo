@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
 
 //INHERITANCE
 
-private float ySpawnPos = 1.5f;
+private float ySpawnPos = 1.85f;
     protected int HP = 5;
 
 

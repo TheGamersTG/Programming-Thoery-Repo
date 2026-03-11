@@ -5,13 +5,13 @@ public class DancingEnemy : Enemy
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     //INHERITANCE
 
-    private float topBound = 1.5f;
+    private float topBound = 1.8f;
     private int direction = 1;
     void Start()
     {
         gameman = GameObject.Find("GameManager").GetComponent<GameManager>();
         HP = 3;
-        speed = 5;
+        speed = 6;
         xLimit = -15;
         transform.position = RandomSpawnPos();
         scorePoints = 6;
